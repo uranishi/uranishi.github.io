@@ -1,0 +1,28 @@
+{% assign pub_locale = page.lang | default: 'en' %}
+{% assign pub_i18n = site.data.i18n[pub_locale].publications %}
+<nav class="pub-view-toggle pub-sort-toggle" role="tablist" aria-label="{{ pub_i18n.view_aria }}">
+  <button
+    type="button"
+    class="pub-view-toggle__btn active"
+    role="tab"
+    aria-selected="true"
+    aria-controls="pub-view-year"
+    id="pub-view-tab-year"
+    data-pub-view="year"
+  >
+    {{ pub_i18n.view_by_year }}
+  </button>
+  <button
+    type="button"
+    class="pub-view-toggle__btn"
+    role="tab"
+    aria-selected="false"
+    aria-controls="pub-view-category"
+    id="pub-view-tab-category"
+    data-pub-view="category"
+  >
+    {{ pub_i18n.view_by_category }}
+  </button>
+</nav>
+
+<script src="{{ '/assets/js/publications-view.js' | relative_url | bust_file_cache }}" defer></script>

@@ -1,0 +1,13 @@
+{% comment %}
+  Resolve locale strings from _data/i18n.yml.
+  Usage: {% include i18n.liquid key="nav.about" %}
+  Requires page.lang (default: en).
+{% endcomment %}
+{% assign locale = page.lang | default: 'en' %}
+{% assign i18n = site.data.i18n[locale] %}
+{% assign key_parts = include.key | split: '.' %}
+{% assign value = i18n %}
+{% for part in key_parts %}
+  {% assign value = value[part] %}
+{% endfor %}
+{{- value -}}

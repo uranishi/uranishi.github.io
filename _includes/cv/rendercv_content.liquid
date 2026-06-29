@@ -1,0 +1,172 @@
+{% comment %}
+  RenderCV sections from site.data.cv.cv or site.data.cv_ja.cv.
+  Optional include parameters:
+  - skip_header: omit contact information and summary blocks
+  - locale: en or ja (for section headings)
+{% endcomment %}
+
+{% assign cv_locale = include.locale | default: page.lang | default: 'en' %}
+{% if page.cv_data == 'cv_ja' and site.data.cv_ja %}
+  {% assign cv = site.data.cv_ja.cv %}
+{% elsif site.data.cv and site.data.cv.cv %}
+  {% assign cv = site.data.cv.cv %}
+{% endif %}
+{% assign cv_i18n = site.data.i18n[cv_locale].cv_sections %}
+
+{% if cv %}
+
+  {% unless include.skip_header %}
+    {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
+      <div class="card mt-3 p-3">
+        <h3 class="card-title font-weight-medium">Contact Information</h3>
+        <table class="table table-cv table-sm table-borderless">
+          {% if cv.name %}
+            <tr>
+              <td class="p-1 pr-2 font-weight-bold"><b>Name</b></td>
+              <td class="p-1 pl-2 font-weight-light">{{ cv.name }}</td>
+            </tr>
+          {% endif %}
+          {% if cv.label %}
+            <tr>
+              <td class="p-1 pr-2 font-weight-bold"><b>Professional Title</b></td>
+              <td class="p-1 pl-2 font-weight-light">{{ cv.label }}</td>
+            </tr>
+          {% endif %}
+          {% if cv.email %}
+            <tr>
+              <td class="p-1 pr-2 font-weight-bold"><b>Email</b></td>
+              <td class="p-1 pl-2 font-weight-light">{{ cv.email }}</td>
+            </tr>
+          {% endif %}
+          {% if cv.phone %}
+            <tr>
+              <td class="p-1 pr-2 font-weight-bold"><b>Phone</b></td>
+              <td class="p-1 pl-2 font-weight-light">{{ cv.phone }}</td>
+            </tr>
+          {% endif %}
+          {% if cv.address %}
+            <tr>
+              <td class="p-1 pr-2 font-weight-bold"><b>Location</b></td>
+              <td class="p-1 pl-2 font-weight-light">
+                {% if cv.address.street %}{{ cv.address.street }}, {% endif %}
+                {% if cv.address.city %}{{ cv.address.city }}, {% endif %}
+                {% if cv.address.region %}{{ cv.address.region }} {% endif %}
+                {% if cv.address.postalCode %}{{ cv.address.postalCode }}{% endif %}
+              </td>
+            </tr>
+          {% endif %}
+          {% if cv.website %}
+            <tr>
+              <td class="p-1 pr-2 font-weight-bold"><b>Website</b></td>
+              <td class="p-1 pl-2 font-weight-light">
+                <a href="{{ cv.website }}" target="_blank">{{ cv.website }}</a>
+              </td>
+            </tr>
+          {% endif %}
+        </table>
+      </div>
+    {% endif %}
+
+    {% if cv.summary %}
+      <div class="card mt-3 p-3">
+        <h3 class="card-title font-weight-medium">Professional Summary</h3>
+        <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      </div>
+    {% endif %}
+  {% endunless %}
+
+  {% assign empty_array = '' | split: ',' %}
+  {% assign exp = cv.sections.Experience | default: empty_array %}
+  {% assign vol = cv.sections.Volunteer | default: empty_array %}
+  {% assign combined_experience = exp | concat: vol %}
+  {% if combined_experience.size > 0 %}
+    <a class="anchor" id="cv-experience"></a>
+    <details class="cv-section-card mt-3" open>
+      <summary class="cv-section-card__summary">
+        <h3 class="card-title font-weight-medium mb-0">{% if cv_i18n.Experience %}{{ cv_i18n.Experience }}{% else %}Experience{% endif %}</h3>
+      </summary>
+      <div class="cv-section-card__body">
+        {% assign entries = combined_experience %}
+        {% include cv/experience.liquid %}
+      </div>
+    </details>
+  {% endif %}
+
+  {% assign cv_section_index = 0 %}
+  {% for section_pair in cv.sections %}
+    {% assign section_title = section_pair[0] %}
+    {% assign section_entries = section_pair[1] %}
+
+    {% if section_title == 'Experience' or section_title == 'Volunteer' %}
+      {% continue %}
+    {% endif %}
+
+    {% assign cv_section_index = cv_section_index | plus: 1 %}
+    <a class="anchor" id="cv-{{ section_title | slugify }}"></a>
+    <details class="cv-section-card mt-3"{% if cv_section_index <= 2 %} open{% endif %}>
+      <summary class="cv-section-card__summary">
+        <h3 class="card-title font-weight-medium mb-0">
+          {%- if cv_i18n[section_title] -%}
+            {{- cv_i18n[section_title] -}}
+          {%- else -%}
+            {{- section_title -}}
+          {%- endif -%}
+        </h3>
+      </summary>
+      <div class="cv-section-card__body">
+        {% if section_title == 'Education' %}
+          {% assign entries = section_entries %}
+          {% include cv/education.liquid %}
+        {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
+          {% assign entries = section_entries %}
+          {% include cv/awards.liquid %}
+        {% elsif section_title == 'Supervised Student Awards' %}
+          {% assign entries = section_entries %}
+          {% include cv/awards.liquid %}
+        {% elsif section_title == 'Publications' %}
+          {% assign entries = section_entries %}
+          {% include cv/publications.liquid %}
+        {% elsif section_title == 'Skills' %}
+          {% assign entries = section_entries %}
+          {% include cv/skills.liquid %}
+        {% elsif section_title == 'Languages' %}
+          {% assign entries = section_entries %}
+          {% include cv/languages.liquid %}
+        {% elsif section_title == 'Interests' or section_title == 'Academic Interests' %}
+          {% assign entries = section_entries %}
+          {% include cv/interests.liquid %}
+        {% elsif section_title == 'Certificates' %}
+          {% assign entries = section_entries %}
+          {% include cv/certificates.liquid %}
+        {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
+          {% assign entries = section_entries %}
+          {% include cv/projects.liquid %}
+        {% elsif section_title == 'References' %}
+          {% assign entries = section_entries %}
+          {% include cv/references.liquid %}
+        {% elsif section_title == 'Teaching' %}
+          {% assign entries = section_entries %}
+          {% include cv/experience.liquid %}
+        {% elsif section_title == 'Academic Activities' %}
+          {% assign entries = section_entries %}
+          {% include cv/academic_activities.liquid %}
+        {% elsif section_title == 'Patents' %}
+          {% assign entries = section_entries %}
+          {% include cv/awards.liquid %}
+        {% else %}
+          {% for entry in section_entries %}
+            {% if entry.bullet %}
+              <ul class="card-text font-weight-light list-group list-group-flush">
+                <li class="list-group-item">{{ entry.bullet | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+              </ul>
+            {% elsif entry.label %}
+              <div class="card-text font-weight-light">
+                <strong>{{ entry.label }}:</strong> {{ entry.details }}
+              </div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+      </div>
+    </details>
+  {% endfor %}
+{% endif %}

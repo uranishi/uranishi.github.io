@@ -1,0 +1,33 @@
+{% comment %}
+  In-page jump links for CV sections on the about page.
+{% endcomment %}
+{% assign cv_locale = include.locale | default: page.lang | default: 'en' %}
+{% if page.cv_data == 'cv_ja' and site.data.cv_ja %}
+  {% assign cv = site.data.cv_ja.cv %}
+{% elsif site.data.cv and site.data.cv.cv %}
+  {% assign cv = site.data.cv.cv %}
+{% endif %}
+{% assign cv_i18n = site.data.i18n[cv_locale].cv_sections %}
+
+{% if cv and cv.sections %}
+  <nav class="cv-jump-nav" aria-label="{% if cv_locale == 'ja' %}CV セクション{% else %}CV sections{% endif %}">
+    {% assign empty_array = '' | split: ',' %}
+    {% assign exp = cv.sections.Experience | default: empty_array %}
+    {% assign vol = cv.sections.Volunteer | default: empty_array %}
+    {% assign combined_experience = exp | concat: vol %}
+    {% if combined_experience.size > 0 %}
+      <a class="cv-jump-nav__link" href="#cv-experience">
+        {%- if cv_i18n.Experience -%}{{ cv_i18n.Experience }}{%- else -%}Experience{%- endif -%}
+      </a>
+    {% endif %}
+    {% for section_pair in cv.sections %}
+      {% assign section_title = section_pair[0] %}
+      {% if section_title == 'Experience' or section_title == 'Volunteer' %}
+        {% continue %}
+      {% endif %}
+      <a class="cv-jump-nav__link" href="#cv-{{ section_title | slugify }}">
+        {%- if cv_i18n[section_title] -%}{{ cv_i18n[section_title] }}{%- else -%}{{ section_title }}{%- endif -%}
+      </a>
+    {% endfor %}
+  </nav>
+{% endif %}

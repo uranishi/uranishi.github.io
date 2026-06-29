@@ -1,0 +1,35 @@
+{% comment %}
+  Research interests and memberships chips for the about page.
+  Expects page.research_interests and page.memberships (arrays).
+{% endcomment %}
+{% if page.research_interests or page.memberships %}
+  <div class="about-highlights">
+    {% if page.research_interests %}
+      <section class="about-highlight">
+        <div class="about-highlight__heading">
+          <span class="about-highlight__icon" aria-hidden="true"><i class="fa-solid fa-microscope"></i></span>
+          <h2 class="about-highlight__label">{% include i18n.liquid key='about.research_interests' %}</h2>
+        </div>
+        <ul class="about-chip-list">
+          {% for item in page.research_interests %}
+            <li><span class="about-chip about-chip--accent">{{ item }}</span></li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+
+    {% if page.memberships %}
+      <section class="about-highlight">
+        <div class="about-highlight__heading">
+          <span class="about-highlight__icon" aria-hidden="true"><i class="fa-solid fa-id-card"></i></span>
+          <h2 class="about-highlight__label">{% include i18n.liquid key='about.memberships' %}</h2>
+        </div>
+        <ul class="about-chip-list">
+          {% for item in page.memberships %}
+            <li><span class="about-chip">{{ item }}</span></li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  </div>
+{% endif %}

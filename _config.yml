@@ -3,11 +3,12 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
+title_suffix: ", Ph.D." # appended after first/middle/last name when title is blank
 first_name: Yuki
 middle_name:
 last_name: Uranishi
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Professor at D3 Center, Osaka University. Research interests: Augmented Reality, Computer Vision, Human-Computer Interaction, Light Field.
+  Professor at D3 Center, The University of Osaka. Research interests: Augmented Reality, Computer Vision, Human-Computer Interaction, Light Field.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -52,9 +53,9 @@ external_services:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
-posts_in_search: true
+posts_in_search: false
 bib_search: true
 
 # Dimensions
@@ -148,7 +149,7 @@ collections:
       layout: post
     output: true
   projects:
-    output: true
+    output: false
   teachings:
     output: true
 
@@ -266,8 +267,9 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Uranishi]
-  first_name: [Yuki, Y.]
+  last_name: [Uranishi, 浦西]
+  first_name: [Yuki, Y., 友樹]
+  native_names: [浦西友樹]
 
   style: apa
   locale: en
@@ -330,7 +332,8 @@ filtered_bibtex_keywords:
   ]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3 # leave blank to always show all authors
+# Leave unset to always show all authors.
+# max_author_limit: 3
 more_authors_animation_delay: 10 # more authors are revealed on click using animation; smaller delay means faster animation
 
 # Enables publication thumbnails. If disabled, none of the publications will display thumbnails, even if specified in the bib entry.

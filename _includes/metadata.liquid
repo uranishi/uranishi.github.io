@@ -22,7 +22,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
   {% if site.title == 'blank' %}
-    {% capture title %}{{ author_name }}{% endcapture %}
+    {% capture title %}{{ author_name }}{% if site.title_suffix %}{{ site.title_suffix }}{% endif %}{% endcapture %}
   {% else %}
     {% capture title %}{{ site.title }}{% endcapture %}
   {% endif %}

@@ -1,0 +1,66 @@
+en:
+  lab_url: https://www.lab.ime.cmc.osaka-u.ac.jp/?lang=en
+  nav:
+    about: about
+    publications: publications
+    lab: lab
+  lang_switch: 日本語
+  lang_switch_aria: Switch to Japanese
+  selected_publications: selected publications
+  about:
+    research_interests: Research interests
+    memberships: Memberships
+    cv_ja_note: >-
+      Some domestic award, course, and committee titles appear in Japanese where no official English designation is established.
+      See the <a href="/ja/">Japanese page</a> for authoritative wording.
+  publications:
+    view_by_year: By year
+    view_by_category: By category
+    view_aria: Publications grouping
+    categories:
+      books: Books
+      journal: Journal Papers
+      talks: Invited Talks and Tutorials
+      intl: International Conference Proceedings
+      dom: Domestic Conference Proceedings
+      misc: Misc.
+  cv_sections:
+    Experience: Experience
+    Education: Education
+    Awards: Awards
+    Supervised Student Awards: Supervised student awards
+    Patents: Patents
+    Teaching: Teaching
+    Academic Activities: Academic Activities
+
+ja:
+  lab_url: https://www.lab.ime.cmc.osaka-u.ac.jp/?lang=ja
+  nav:
+    about: about
+    publications: publications
+    lab: lab
+  lang_switch: EN
+  lang_switch_aria: Switch to English
+  selected_publications: 主要論文
+  about:
+    research_interests: 研究分野
+    memberships: 所属学会
+  publications:
+    view_by_year: 年別
+    view_by_category: カテゴリ別
+    view_aria: 業績の表示方法
+    categories:
+      books: 著書
+      journal: 原著論文
+      talks: 招待講演・チュートリアル
+      intl: 国際会議発表
+      dom: 国内会議発表
+      misc: その他
+  cv_sections:
+    Experience: 経歴
+    Education: 学歴
+    Awards: 受賞
+    Supervised Student Awards: 指導学生の受賞
+    Patents: 特許
+    Teaching: 担当講義
+    Academic Activities: 学会活動

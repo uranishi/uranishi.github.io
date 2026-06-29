@@ -24,8 +24,8 @@
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
+    color: var(--global-text-color-light);
+    border-top: 1px solid color-mix(in srgb, var(--global-text-color-light) 55%, var(--global-divider-color));
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
@@ -50,11 +50,14 @@
           display: inline-block;
           background-color: var(--global-theme-color);
           margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
+          color: #fff !important;
+
+          a,
+          div {
+            color: #fff !important;
+          }
 
           a {
-            color: white;
-
             &:hover {
               text-decoration: none;
             }
@@ -185,4 +188,65 @@
 .citation,
 .citation-number {
   color: var(--global-theme-color);
+}
+
+.pub-view-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+  padding: 0.2rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  background-color: var(--global-bg-color);
+
+  &__btn {
+    border: none;
+    background: transparent;
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.2;
+    padding: 0.45rem 1.1rem;
+    border-radius: 999px;
+    cursor: pointer;
+    transition:
+      background-color 0.15s ease,
+      color 0.15s ease,
+      box-shadow 0.15s ease;
+
+    &:hover:not(.active) {
+      background-color: var(--global-hover-color);
+      color: var(--global-hover-text-color);
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
+
+    &.active {
+      background-color: var(--global-theme-color);
+      color: var(--global-bg-color);
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12);
+    }
+  }
+}
+
+.lang-switch-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 0.5rem;
+
+  .lang-view-toggle {
+    margin-bottom: 0;
+  }
+
+  a.pub-view-toggle__btn {
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
 }

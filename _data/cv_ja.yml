@@ -1,8 +1,8 @@
 cv:
-  name: Yuki Uranishi
-  label: Professor
+  name: 浦西 友樹
+  label: 教授
   email: yuki.uranishi.cmc@osaka-u.ac.jp
-  location: Osaka, Japan
+  location: 大阪府, 日本
   image: prof_pic.jpg
 
   social_networks:
@@ -13,69 +13,73 @@ cv:
 
   sections:
     Education:
-      - institution: Image Processing Laboratory, Department of Information Processing Science, Graduate School of Information Science, Nara Institute of Science and Technology
-        location: Nara, Japan
-        studyType: Doctoral Course
+      - institution: 奈良先端科学技術大学院大学
+        location: 奈良県, 日本
+        area: 情報科学研究科 情報処理学専攻 像情報処理学講座
+        studyType: 博士後期課程
         start_date: 2005-10
         end_date: 2008-03
         highlights:
-          - Completed in 2 years 6 months
+          - 短期修了 2年6か月
 
-      - institution: Image Processing Laboratory, Department of Information Processing Science, Graduate School of Information Science, Nara Institute of Science and Technology
-        location: Nara, Japan
-        studyType: Master's Course
+      - institution: 奈良先端科学技術大学院大学
+        location: 奈良県, 日本
+        area: 情報科学研究科 情報処理学専攻 像情報処理学講座
+        studyType: 博士前期課程
         start_date: 2004-04
         end_date: 2005-09
         highlights:
-          - Completed in 1 year 6 months
+          - 短期修了 1年6か月
 
-      - institution: Matsuo Laboratory, Department of Electronic and Information Engineering, Advanced Course, Nara National College of Technology
-        location: Nara, Japan
-        studyType: Advanced Course
+      - institution: 奈良工業高等専門学校
+        location: 奈良県, 日本
+        area: 専攻科 電子情報工学専攻 松尾研究室
+        studyType: 専攻科
         start_date: 2002-04
         end_date: 2004-03
 
-      - institution: Department of Information Engineering, Nara National College of Technology
-        location: Nara, Japan
-        studyType: Regular Course
+      - institution: 奈良工業高等専門学校
+        location: 奈良県, 日本
+        area: 情報工学科
+        studyType: 本科
         start_date: 1997-04
         end_date: 2002-03
 
     Experience:
-      - company: Cybermedia Education Research Division, D3 Center, The University of Osaka
-        position: Professor
-        location: Osaka, Japan
+      - company: 大阪大学 D3センター サイバーメディア教育研究部門
+        position: 教授
+        location: 大阪府, 日本
         start_date: 2024-04
         end_date: ""
-        summary: Reorganized from the Infomedia Education Research Division, Cybermedia Center
+        summary: サイバーメディアセンター 情報メディア教育研究部門より組織変更
 
-      - company: Infomedia Education Research Division, Cybermedia Center, The University of Osaka
-        position: Professor
-        location: Osaka, Japan
+      - company: 大阪大学 サイバーメディアセンター 情報メディア教育研究部門
+        position: 教授
+        location: 大阪府, 日本
         start_date: 2024-04
         end_date: 2024-09
 
-      - company: Infomedia Education Research Division, Cybermedia Center, The University of Osaka
-        position: Associate Professor
-        location: Osaka, Japan
+      - company: 大阪大学 サイバーメディアセンター 情報メディア教育研究部門
+        position: 准教授
+        location: 大阪府, 日本
         start_date: 2016-04
         end_date: 2024-03
 
-      - company: Division of Medical Information Technology and Administration Planning, Kyoto University Hospital
-        position: Assistant Professor
-        location: Kyoto, Japan
+      - company: 京都大学 医学部附属病院 医療情報企画部
+        position: 助教
+        location: 京都府, 日本
         start_date: 2014-04
         end_date: 2016-03
 
-      - company: Bioimaging Group, Division of Bioengineering, Department of Mechanical Science and Bioengineering, Graduate School of Engineering Science, The University of Osaka
-        position: Assistant Professor
-        location: Osaka, Japan
+      - company: 大阪大学 大学院基礎工学研究科 機能創成専攻 生体工学領域 バイオイメージンググループ
+        position: 助教
+        location: 大阪府, 日本
         start_date: 2012-10
         end_date: 2014-03
 
-      - company: Faculty of Engineering Science, Kansai University
-        position: Part-time Lecturer
-        location: Osaka, Japan
+      - company: 関西大学 システム理工学部
+        position: 非常勤講師
+        location: 大阪府, 日本
         start_date: 2012-09
         end_date: 2017-03
 
@@ -85,25 +89,25 @@ cv:
         start_date: 2011-06
         end_date: 2012-06
 
-      - company: Faculty of Engineering Science, Kansai University
-        position: Part-time Lecturer
-        location: Osaka, Japan
+      - company: 関西大学 システム理工学部
+        position: 非常勤講師
+        location: 大阪府, 日本
         start_date: 2010-09
         end_date: 2011-03
 
-      - company: Graduate School of Information Science, Nara Institute of Science and Technology
-        position: Assistant Professor
-        location: Nara, Japan
+      - company: 奈良先端科学技術大学院大学 情報科学研究科
+        position: 助教
+        location: 奈良県, 日本
         start_date: 2009-04
         end_date: 2012-09
-        summary: Image Processing Laboratory (2009–2011); Interactive Media Design Laboratory (2011–2012)
+        summary: 2009.4–2011.3 像情報処理学講座, 2011.4–2012.9 インタラクティブメディア設計学講座
 
-      - company: Japan Society for the Promotion of Science
-        position: JSPS Research Fellow (PD)
-        location: Japan
+      - company: 日本学術振興会
+        position: 特別研究員 (PD)
+        location: 日本
         start_date: 2008-04
         end_date: 2009-03
-        summary: Promoted from DC2
+        summary: DC2から資格変更
 
       - company: University of Oulu
         position: Researcher
@@ -111,291 +115,292 @@ cv:
         start_date: 2007-05
         end_date: 2007-11
 
-      - company: Japan Society for the Promotion of Science
-        position: JSPS Research Fellow (DC2)
-        location: Japan
+      - company: 日本学術振興会
+        position: 特別研究員 (DC2)
+        location: 日本
         start_date: 2007-04
         end_date: 2008-03
 
-      - company: Faculty of Culture and Information Science, Doshisha University
-        position: Teaching Assistant
-        location: Kyoto, Japan
+      - company: 同志社大学 文化情報学部
+        position: 実習助手
+        location: 京都府, 日本
         start_date: 2006-10
         end_date: 2007-01
 
-      - company: Graduate School of Information Science, Nara Institute of Science and Technology
-        position: Fixed-term Staff
-        location: Nara, Japan
+      - company: 奈良先端科学技術大学院大学 情報科学研究科
+        position: 有期契約職員
+        location: 奈良県, 日本
         start_date: 2005-10
         end_date: 2007-03
 
-      - company: Graduate School of Information Science, Nara Institute of Science and Technology
-        position: Teaching Assistant
-        location: Nara, Japan
+      - company: 奈良先端科学技術大学院大学 情報科学研究科
+        position: ティーチングアシスタント
+        location: 奈良県, 日本
         start_date: 2005-04
         end_date: 2006-09
 
     Awards:
       - title: 学会活動貢献賞
         date: 2024-01
-        awarder: Information Processing Society of Japan (IPSJ)
+        awarder: 情報処理学会
 
       - title: 大阪大学賞 教育貢献部門
         date: 2021-11
-        awarder: The University of Osaka
-        summary: Awarded as a member of the COVID-19 New-Semester Course Support Team
+        awarder: 大阪大学
+        summary: COVID-19に関わる新学期授業支援対策チームでの受賞
 
       - title: 大阪大学賞 大学運営部門
         date: 2020-11
-        awarder: The University of Osaka
+        awarder: 大阪大学
 
       - title: 芸術科学会論文誌 論文賞
         date: 2019-11
-        awarder: The Society for Art Science
+        awarder: 芸術科学会
+        summary: 井手口裕太, 川口純輝, 浦西友樹, 吉元俊輔, 黒田嘉宏, 井村誠孝, 大城理
 
       - title: 平成30年度SIG-MR賞
         date: 2019-10
-        awarder: SIG-MR, The Virtual Reality Society of Japan
-        summary: Takuro Okamoto, Yuki Uranishi, Masato Ikeda, Photchara Ratsamee, Haruo Takemura
+        awarder: 日本バーチャルリアリティ学会複合現実感研究委員会
+        summary: 岡本拓朗, 浦西友樹, 間下以大, Photchara Ratsamee, 竹村治雄
 
       - title: 平成29年度SIG-MR賞
         date: 2018-10
-        awarder: SIG-MR, The Virtual Reality Society of Japan
-        summary: Yuki Tamura, Masato Ikeda, Yoshihiro Kuroda, Yuki Uranishi, Kiyoshi Kiyokawa, Haruo Takemura
+        awarder: 日本バーチャルリアリティ学会複合現実感研究委員会
+        summary: 田村祐樹, 間下以大, 黒田嘉宏, 浦西友樹, 清川清, 竹村治雄
 
       - title: 教育功労賞
         date: 2017-03
-        awarder: Institute of Electronics, Information and Communication Engineers (IEICE)
+        awarder: 電子情報通信学会
 
       - title: 論文賞
         date: 2014-09
-        awarder: The Virtual Reality Society of Japan (VRSJ)
-        summary: Yoshihiro Kuroda, Yuki Uranishi, Tomohiro Kuroda, Osamu Oshiro
+        awarder: 日本バーチャルリアリティ学会
+        summary: 黒田嘉宏, 浦西友樹, 井村誠孝, 大城理
 
       - title: 総長による表彰
         date: 2014-02
-        awarder: The University of Osaka
+        awarder: 大阪大学
 
       - title: 平成24年度SIG-MR賞
         date: 2013-09
-        awarder: SIG-MR, The Virtual Reality Society of Japan
-        summary: Kazuya Okada, Takafumi Taketomi, Goshiro Yamamoto, Yuki Uranishi, Jun Miyazaki, Hirokazu Kato
+        awarder: 日本バーチャルリアリティ学会複合現実感研究委員会
+        summary: 岡田和也, 武富貴史, 山本豪志朗, 浦西友樹, 宮崎純, 加藤博一
 
       - title: インタラクティブ発表賞
         date: 2013-08
-        awarder: MIRU2013 (Meeting on Image Recognition and Understanding)
+        awarder: 画像の認識・理解シンポジウム MIRU2013
         summary: Masataka Imura, Yuki Uranishi, Yoshihiro Kuroda, Osamu Oshiro
 
       - title: 優秀発表賞
         date: 2010-11
-        awarder: Color Information Symposium
-        summary: Masao Miyake, Masataka Imura, Yuki Uranishi, Sei Ikeda, Kunihiro Chihara
+        awarder: 色彩情報シンポジウム
+        summary: 三宅正夫, 眞鍋佳嗣, 浦西友樹, 池田聖, 千原國宏
 
       - title: 奨励賞 (進歩賞)
         date: 2010-03
-        awarder: Konica Minolta Science and Technology Foundation
+        awarder: コニカミノルタ画像科学振興財団
 
       - title: 第一種奨学金返還免除 (博士後期・半額)
         date: 2007-05
-        awarder: Japan Student Services Organization (JASSO)
+        awarder: 日本学生支援機構
 
       - title: 第一種奨学金返還免除 (博士前期・全額)
         date: 2006-05
-        awarder: Japan Student Services Organization (JASSO)
+        awarder: 日本学生支援機構
 
       - title: 奨励賞
         date: 2006-05
-        awarder: The Institute of Systems, Control and Information Engineers
+        awarder: システム制御情報学会
 
       - title: 奨励賞
         date: 2004-04
-        awarder: Kansai Joint Convention of Institutes of Electrical Engineering
+        awarder: 電気関係学会関西支部連合大会
 
       - title: 専攻科研究特別賞
         date: 2004-03
-        awarder: Nara National College of Technology
+        awarder: 奈良工業高等専門学校
 
       - title: 支部長賞 (学生会奨励賞)
         date: 2004-03
-        awarder: IEICE Kansai Section
+        awarder: 電子情報通信学会関西支部
 
       - title: 支部長賞 (学生会功労賞)
         date: 2004-03
-        awarder: IEICE Kansai Section
+        awarder: 電子情報通信学会関西支部
 
     Supervised Student Awards:
       - title: MIRU学生奨励賞
         date: 2017-08
-        awarder: Meeting on Image Recognition and Understanding (MIRU2017)
-        summary: Shota Masamitsu, Masato Ikeda, Photchara Ratsamee, Yuki Uranishi, Kiyoshi Kiyokawa, Haruo Takemura
+        awarder: 画像の認識・理解シンポジウム MIRU2017
+        summary: 正満創太, 間下以大, Photchara Ratsamee, 浦西友樹, 清川清, 竹村治雄
 
       - title: MIRU学生奨励賞
         date: 2016-08
-        awarder: Meeting on Image Recognition and Understanding (MIRU2016)
+        awarder: 画像の認識・理解シンポジウム MIRU2016
         summary: Yuta Ideguchi, Yuki Uranishi, Shunsuke Yoshimoto, Yoshihiro Kuroda, Osamu Oshiro
 
       - title: 奨励賞
         date: 2014-05
-        awarder: Society of Instrument and Control Engineers (SICE)
-        summary: Yuta Ideguchi, Yuki Uranishi, Yoshihiro Kuroda, Tomohiro Kuroda, Osamu Oshiro
+        awarder: システム制御情報学会
+        summary: 井手口裕太, 浦西友樹, 黒田嘉宏, 井村誠孝, 大城理
 
       - title: 優秀論文発表賞
         date: 2014-04
-        awarder: Institute of Image Information and Television Engineers (ITE)
-        summary: Shingo Nagasaka, Yuki Uranishi, Yoshihiro Kuroda, Tomohiro Kuroda, Osamu Oshiro
+        awarder: 映像情報メディア学会
+        summary: 長坂信吾, 浦西友樹, 黒田嘉宏, 井村誠孝, 大城理
 
       - title: 学生発表賞
         date: 2014-03
-        awarder: IPSJ Entertainment Computing Research Group
-        summary: Yuta Ideguchi, Ryosuke Yokobata, Tomohiro Kuroda, Yuki Uranishi, Yoshihiro Kuroda, Osamu Oshiro
+        awarder: 情報処理学会エンタテイメントコンピューティング研究会
+        summary: 井手口裕太, 横畑亮輔, 井村誠孝, 浦西友樹, 黒田嘉宏, 大城理
 
       - title: 奨励賞
         date: 2008-05
-        awarder: The Institute of Systems, Control and Information Engineers
-        summary: Hiromi Tsujimura, Yuki Uranishi, Masataka Imura, Kunihiro Chihara
+        awarder: システム制御情報学会
+        summary: 辻村裕美, 浦西友樹, 眞鍋佳嗣, 千原國宏
 
       - title: 奨励賞
         date: 2008-01
-        awarder: IPSJ Kansai Branch Conference
-        summary: Hiromi Tsujimura, Yuki Uranishi, Muneyuki Sakata, Masataka Imura, Kunihiro Chihara
+        awarder: 情報処理学会関西支部大会
+        summary: 辻村裕美, 浦西友樹, 坂田宗之, 眞鍋佳嗣, 千原國宏
 
     Patents:
       - title: "三次元形状情報生成装置, 細胞判定システム (特願2019-237110)"
         date: 2024-01-15
-        summary: Kenichi Morooka, Ryo Kurata, Shoko Miyauchi, Hajime Nagahara, Yuta Nakashima, Yuki Uranishi, Eiji Ono
+        summary: 諸岡健一, 倉爪亮, 宮内翔子, 長原一, 中島悠太, 浦西友樹, 大野英治
 
       - title: "画像処理装置及び方法、並びにコンピュータプログラム (特願2015-97380)"
         date: 2015-05-12
-        summary: Megumi Nakao, Yuki Uranishi, Akira Saito
+        summary: 中尾恵, 浦西友樹, 齋藤陽
 
       - title: "3次元オブジェクト計測装置 (国際公開WO2006/075528)"
         date: 2005-12-28
-        summary: Masataka Imura, Kunihiro Chihara, Yuki Uranishi
+        summary: 眞鍋佳嗣, 千原國宏, 浦西友樹
 
     Teaching:
-      - company: Graduate School of Information Science, The University of Osaka
+      - company: 大阪大学 情報科学研究科
         position: 情報技術と倫理
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2025
         end_date: ""
-      - company: General Education, The University of Osaka
+      - company: 大阪大学 共通教育
         position: Data Processing Skills
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2024
         end_date: ""
-      - company: School of Engineering Science, The University of Osaka
+      - company: 大阪大学 基礎工学部
         position: 防災特論
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2024
         end_date: "2024"
-      - company: School of Engineering Science, The University of Osaka
+      - company: 大阪大学 基礎工学部
         position: ヒューマン・コンピュータ・インタラクション
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2024
         end_date: ""
-      - company: School of Engineering Science, The University of Osaka
+      - company: 大阪大学 基礎工学部
         position: 情報科学序説
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2022
         end_date: ""
-      - company: Graduate School of Information Science, The University of Osaka
+      - company: 大阪大学 情報科学研究科
         position: システムインタフェース設計論
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2021
         end_date: ""
-      - company: School of Engineering Science, The University of Osaka
+      - company: 大阪大学 基礎工学部
         position: ゼミナールA/B
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2020
         end_date: ""
-      - company: Graduate School of Information Science, The University of Osaka
-        position: インタラクティブ創成工学基礎演習 / インタラクティブ創成工学演習
-        location: Osaka, Japan
+      - company: 大阪大学 情報科学研究科
+        position: インタラクティブ創成工学基礎演習/インタラクティブ創成工学演習
+        location: 大阪府, 日本
         start_date: 2020
         end_date: ""
-      - company: School of Engineering Science, The University of Osaka
+      - company: 大阪大学 基礎工学部
         position: 情報技術者と社会
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2020
         end_date: ""
-      - company: School of Engineering Science, The University of Osaka
+      - company: 大阪大学 基礎工学部
         position: マルチメディア工学
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2017
         end_date: "2020"
-      - company: Organization for Education Advancement, The University of Osaka
+      - company: 大阪大学 全学教育推進機構
         position: 情報探索入門
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2016
         end_date: ""
-      - company: Faculty of Engineering Science, Kansai University
-        position: 応用情報工学実験 / 情報通信工学実験
-        location: Osaka, Japan
+      - company: 関西大学 システム理工学部
+        position: 応用情報工学実験/情報通信工学実験
+        location: 大阪府, 日本
         start_date: 2010
         end_date: "2017"
         summary: 270分×11回 (2010.9–2011.3, 2012.9–2013.3, 2013.9–2014.3, 2014.9–2015.3, 2015.9–2016.3, 2016.9–2017.3)
-      - company: Graduate School of Informatics, Kyoto University
+      - company: 京都大学 情報学研究科
         position: 医療情報学
-        location: Kyoto, Japan
+        location: 京都府, 日本
         start_date: 2014
         end_date: "2015"
-      - company: Faculty of Medicine, Kyoto University
+      - company: 京都大学 医学部医学科
         position: 医療情報リテラシー
-        location: Kyoto, Japan
+        location: 京都府, 日本
         start_date: 2014
         end_date: "2015"
         summary: 90分×6回 (2014.4–2014.6, 2015.4–2015.6)
-      - company: School of Engineering Science, The University of Osaka
+      - company: 大阪大学 基礎工学部
         position: 基礎工学PBL（生物工学）
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2013
         end_date: "2014"
         summary: 30時間 (2013.10–2014.3)
-      - company: School of Engineering Science, The University of Osaka
+      - company: 大阪大学 基礎工学部
         position: 生物工学特別演習
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2013
         end_date: "2014"
         summary: 60時間 (2013.4–2014.3)
-      - company: School of Engineering Science, The University of Osaka
+      - company: 大阪大学 基礎工学部
         position: 生物工学実験
-        location: Osaka, Japan
+        location: 大阪府, 日本
         start_date: 2013
         end_date: "2014"
         summary: 90時間 (2013.4–2014.3)
-      - company: Graduate School of Information Science, Nara Institute of Science and Technology
+      - company: 奈良先端科学技術大学院大学 情報科学研究科
         position: 先進情報科学特別講義II, IV
-        location: Nara, Japan
+        location: 奈良県, 日本
         start_date: 2012
         end_date: "2013"
         summary: 15時間 (2012.12–2013.2)
-      - company: Graduate School of Information Science, Nara Institute of Science and Technology
+      - company: 奈良先端科学技術大学院大学 情報科学研究科
         position: 計測情報処理II
-        location: Nara, Japan
+        location: 奈良県, 日本
         start_date: 2011
         end_date: "2012"
         summary: 30時間 (2011.12–2012.2)
-      - company: Graduate School of Information Science, Nara Institute of Science and Technology
+      - company: 奈良先端科学技術大学院大学 情報科学研究科
         position: 計測情報処理I
-        location: Nara, Japan
+        location: 奈良県, 日本
         start_date: 2010
         end_date: "2011"
         summary: 30時間 (2010.4–6, 2011.4–6)
-      - company: Graduate School of Information Science, Nara Institute of Science and Technology
+      - company: 奈良先端科学技術大学院大学 情報科学研究科
         position: 計算機システム概論
-        location: Nara, Japan
+        location: 奈良県, 日本
         start_date: 2010
         end_date: "2010"
         summary: 30時間 (2010.4–6, 2010.10–12)
-      - company: Faculty of Culture and Information, Doshisha University
+      - company: 同志社大学 文化情報学部
         position: コロキアム
-        location: Kyoto, Japan
+        location: 京都府, 日本
         start_date: 2006
         end_date: "2007"
         summary: 45分×12回 (2006.10–2007.1)
 
     Academic Activities:
-      - organization: Research Group on Computer Vision and Image Media, Information Processing Society of Japan (IPSJ)
+      - organization: 情報処理学会 コンピュータビジョンとイメージメディア研究会
         position: 運営委員
         start_date: 2026-04
         end_date: ""
@@ -403,19 +408,19 @@ cv:
         position: S&T Programme Committee Member
         start_date: 2026-10
         end_date: "2026-10"
-      - organization: Virtual Reality Society of Japan (VRSJ)
+      - organization: 日本バーチャルリアリティ学会
         position: 理事
         start_date: 2025-04
         end_date: ""
-      - organization: Kansai Branch, Institute of Image Information and Television Engineers (ITE)
+      - organization: 映像情報メディア学会関西支部
         position: 運営委員
         start_date: 2022-04
         end_date: ""
-      - organization: Mixed Reality Research Committee, Virtual Reality Society of Japan
+      - organization: 日本バーチャルリアリティ学会複合現実感研究委員会
         position: 委員
         start_date: 2014-04
         end_date: ""
-      - organization: The 8th IEEE Conference on AI and Extended & Virtual Reality (AIxVR 2026)
+      - organization: The 8th IEEE conference on AI and Extended & Virtual Reality (AIxVR 2026)
         position: Local Chair
         start_date: 2026-01
         end_date: "2026-01"
@@ -431,11 +436,11 @@ cv:
         position: Area Chair
         start_date: 2025-07
         end_date: "2025-07"
-      - organization: Global Science Campus "Master of Information Science" Program, National Institute of Informatics
+      - organization: 国立情報学研究所 グローバルサイエンスキャンパス「情報科学の達人」育成官民協働プログラム
         position: メンター
         start_date: 2022-04
         end_date: "2026-03"
-      - organization: Journal Editorial Board, Information Processing Society of Japan (IPSJ)
+      - organization: 情報処理学会 会誌編集委員会
         position: 委員
         start_date: 2022-04
         end_date: "2026-03"
@@ -455,7 +460,7 @@ cv:
         position: S&T Programme Committee Member
         start_date: 2024-10
         end_date: "2024-10"
-      - organization: 第26回画像の認識・理解シンポジウム (MIRU2023)
+      - organization: 第26回画像の認識・理解シンポジウム
         position: 運営委員長
         start_date: 2023-07
         end_date: "2023-07"
@@ -467,7 +472,7 @@ cv:
         position: 委員
         start_date: 2022-07
         end_date: "2022-07"
-      - organization: Promotion Committee, Meeting on Image Recognition and Understanding (MIRU)
+      - organization: 画像の認識・理解シンポジウム MIRU推進委員会
         position: 委員
         start_date: 2022
         end_date: "2024"
@@ -495,7 +500,7 @@ cv:
         position: プログラム委員
         start_date: 2020-09
         end_date: "2020-09"
-      - organization: Meeting on Image Recognition and Understanding (MIRU)
+      - organization: 画像の認識・理解シンポジウム
         position: エリアチェア
         start_date: 2020
         end_date: "2022"
@@ -507,11 +512,11 @@ cv:
         position: 実行委員
         start_date: 2019-05
         end_date: "2019-05"
-      - organization: Journal of Education and Computers Editorial Board, Information Processing Society of Japan (IPSJ)
+      - organization: 情報処理学会 論文誌教育とコンピュータ編集委員会
         position: 編集委員
         start_date: 2022-04
         end_date: "2023-03"
-      - organization: Research Group on Educational Learning Support Information Systems, Information Processing Society of Japan (IPSJ)
+      - organization: 情報処理学会 教育学習支援情報システム研究運営委員会
         position: 委員
         start_date: 2018-04
         end_date: "2022-03"
@@ -519,15 +524,15 @@ cv:
         position: 実行委員長
         start_date: 2017-08
         end_date: "2017-08"
-      - organization: 20th Anniversary Planning Committee, Virtual Reality Society of Japan
+      - organization: 日本バーチャルリアリティ学会 20周年企画委員会
         position: 委員
         start_date: 2016-09
         end_date: "2016-09"
-      - organization: Institute of Image Information and Television Engineers (ITE)
+      - organization: 映像情報メディア学会
         position: 学会誌編集委員
         start_date: 2016-04
         end_date: "2018-03"
-      - organization: Virtual Reality Society of Japan (VRSJ)
+      - organization: 日本バーチャルリアリティ学会
         position: 学会誌編集委員
         start_date: 2015-04
         end_date: "2023-03"
@@ -535,7 +540,7 @@ cv:
         position: 実行委員
         start_date: 2014-07
         end_date: "2014-08"
-      - organization: Society of Instrument and Control Engineers (SICE)
+      - organization: システム制御情報学会
         position: 事業委員
         start_date: 2014-04
         end_date: "2022-05"
@@ -567,7 +572,7 @@ cv:
         position: Program Committee
         start_date: 2010-08
         end_date: "2010-08"
-      - organization: IEICE Human Communication Group
+      - organization: 電子情報通信学会ヒューマンコミュニケーショングループ
         position: 編集幹事
         start_date: 2009-06
         end_date: "2011-06"

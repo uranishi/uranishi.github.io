@@ -1,0 +1,52 @@
+{% comment %}
+  Pill-style language switcher (EN / JA). Maps current page to counterpart URLs.
+{% endcomment %}
+{% assign current_lang = page.lang | default: 'en' %}
+{% if current_lang == 'ja' %}
+  {% if page.url == '/ja/' %}
+    {% assign en_url = '/' | relative_url %}
+    {% assign ja_url = '/ja/' | relative_url %}
+  {% elsif page.url contains '/ja/publications/' %}
+    {% assign en_url = '/publications/' | relative_url %}
+    {% assign ja_url = '/ja/publications/' | relative_url %}
+  {% else %}
+    {% assign stripped = page.url | remove: '/ja' %}
+    {% if stripped == '' %}
+      {% assign en_url = '/' | relative_url %}
+    {% else %}
+      {% assign en_url = stripped | relative_url %}
+    {% endif %}
+    {% assign ja_url = page.url | relative_url %}
+  {% endif %}
+{% else %}
+  {% if page.url == '/' %}
+    {% assign en_url = '/' | relative_url %}
+    {% assign ja_url = '/ja/' | relative_url %}
+  {% elsif page.url contains '/publications/' %}
+    {% assign en_url = '/publications/' | relative_url %}
+    {% assign ja_url = '/ja/publications/' | relative_url %}
+  {% else %}
+    {% assign en_url = page.url | relative_url %}
+    {% assign ja_url = '/ja' | append: page.url | relative_url %}
+  {% endif %}
+{% endif %}
+<li class="nav-item lang-switch-nav">
+  <nav class="pub-view-toggle lang-view-toggle" role="navigation" aria-label="Language">
+    <a
+      class="pub-view-toggle__btn{% if current_lang == 'en' %} active{% endif %}"
+      href="{{ en_url }}"
+      lang="en"
+      {% if current_lang == 'en' %}aria-current="page"{% endif %}
+    >
+      EN
+    </a>
+    <a
+      class="pub-view-toggle__btn{% if current_lang == 'ja' %} active{% endif %}"
+      href="{{ ja_url }}"
+      lang="ja"
+      {% if current_lang == 'ja' %}aria-current="page"{% endif %}
+    >
+      JA
+    </a>
+  </nav>
+</li>

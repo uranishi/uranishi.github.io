@@ -1,0 +1,25 @@
+{% comment %}
+  Category sections in display order (6 abbr types).
+  Each section uses jekyll-scholar query on the custom `abbr` field.
+{% endcomment %}
+{% assign cat_locale = page.lang | default: 'en' %}
+{% assign cat_i18n = site.data.i18n[cat_locale].publications.categories %}
+<div class="publications">
+  <h2 class="bibliography">{{ cat_i18n.books }}</h2>
+  {% bibliography --group_by none --query @*[abbr=BOOK]* %}
+
+  <h2 class="bibliography">{{ cat_i18n.journal }}</h2>
+  {% bibliography --group_by none --query @*[abbr=JOUR]* %}
+
+  <h2 class="bibliography">{{ cat_i18n.talks }}</h2>
+  {% bibliography --group_by none --query @*[abbr=TALK]* %}
+
+  <h2 class="bibliography">{{ cat_i18n.intl }}</h2>
+  {% bibliography --group_by none --query @*[abbr=INTL]* %}
+
+  <h2 class="bibliography">{{ cat_i18n.dom }}</h2>
+  {% bibliography --group_by none --query @*[abbr=DOM]* %}
+
+  <h2 class="bibliography">{{ cat_i18n.misc }}</h2>
+  {% bibliography --group_by none --query @*[abbr=MISC]* %}
+</div>

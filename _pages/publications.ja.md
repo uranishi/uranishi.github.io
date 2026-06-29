@@ -1,14 +1,11 @@
 ---
 layout: page
-permalink: /publications/
+permalink: /ja/publications/
 title: publications
 nav: true
 nav_order: 2
-lang: en
+lang: ja
 ---
-
-<!-- Master: _data/publications.json -->
-<!-- Export: python3 bin/export_publications.py -->
 
 {% include bib_search.liquid %}
 {% include publication_view_toggle.liquid %}

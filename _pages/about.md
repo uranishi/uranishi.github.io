@@ -2,22 +2,34 @@
 layout: about
 title: about
 permalink: /
-subtitle: >
-  Professor, <a href="https://www.d3center.osaka-u.ac.jp/" target="_blank">D3 Center</a>, Osaka University
+lang: en
+cv_data: cv
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>D3 Center, Osaka University</p>
-    <p>Osaka, Japan</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+cv_sections: true
+cv_skip_header: true
+selected_papers: true
+social: true
+
+research_interests:
+  - Computer Vision
+  - VR/AR/MR
+  - Human-Computer Interaction
+
+memberships:
+  - IEEE
+  - IEICE
+  - ISCIE
+  - JSMBE
+  - VRSJ
+  - IPSJ
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 
@@ -27,8 +39,10 @@ latest_posts:
   limit: 3
 ---
 
-I am a Professor at the [D3 Center](https://www.d3center.osaka-u.ac.jp/), Osaka University. I received my Ph.D. in Engineering from the [Nara Institute of Science and Technology (NAIST)](https://www.naist.jp/) in 2008.
+Yuki Uranishi (浦西 友樹) is a Professor at the [Cybermedia Education Division, D3 Center](https://www.d3c.osaka-u.ac.jp/), [The University of Osaka](https://www.osaka-u.ac.jp/en). He also holds concurrent professorships at the Center for Education in Liberal Arts and Sciences, the School of Engineering Science, the Graduate School of Information Science and Technology, the Center for Student Success Research and Practice, the Institute for Transdisciplinary Graduate Degree Programs, and the Nakanoshima Art Center.
 
-My research interests lie at the intersection of **Augmented Reality**, **Computer Vision**, and **Human-Computer Interaction**. I am particularly interested in light field analysis for measuring and reproducing the optical properties of real-world objects, and in developing AR/MR systems that seamlessly integrate digital content with the physical environment.
+He received his Ph.D. in Engineering from the [Nara Institute of Science and Technology (NAIST)](https://www.naist.jp/) in 2008.
 
-Before joining Osaka University, I held research positions at Kyoto University Hospital and worked as a visiting researcher in Finland. I am an active member of the Virtual Reality Society of Japan and IEEE.
+{% include about_highlights.liquid %}
+
+See [Laboratory web site](https://www.lab.ime.cmc.osaka-u.ac.jp/?lang=en) for research themes and [Publications](/publications/) for the complete publication list.

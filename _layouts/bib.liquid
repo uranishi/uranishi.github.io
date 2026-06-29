@@ -57,51 +57,45 @@
       {% if site.max_author_limit and author_array_size > site.max_author_limit %}
         {% assign author_array_limit = site.max_author_limit %}
       {% endif %}
+      {% assign more_authors = author_array_size | minus: author_array_limit %}
 
       {%- for author in entry.author_array limit: author_array_limit -%}
-        {% assign author_is_self = false %}
+        {%- assign author_is_self = false -%}
         {%- assign author_last_name = author.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
         {%- assign author_last_html = author.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        {% if site.scholar.last_name contains author_last_name %}
-          {% if site.scholar.first_name contains author.first %}
-            {% assign author_is_self = true %}
-          {% endif %}
+        {%- if site.scholar.last_name contains author_last_name -%}
+          {%- if site.scholar.first_name contains author.first -%}
+            {%- assign author_is_self = true -%}
+          {%- endif -%}
         {%- endif -%}
-        {% assign coauthor_url = null %}
-        {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
-        {% if site.data.coauthors[clean_last_name] %}
-          {%- for coauthor in site.data.coauthors[clean_last_name] -%}
-            {% if coauthor.firstname contains author.first %}
-              {%- assign coauthor_url = coauthor.url -%}
-              {% break %}
+        {%- if author_is_self == false and site.scholar.native_names -%}
+          {%- capture author_full_name -%}
+            {%- if author.first != blank -%}{{ author.first | strip }} {{ author.last | strip }}{%- else -%}{{ author.last | strip }}{%- endif -%}
+          {%- endcapture -%}
+          {%- for native_name in site.scholar.native_names -%}
+            {%- if author_full_name == native_name or author.last == native_name -%}
+              {%- assign author_is_self = true -%}
+              {%- break -%}
             {%- endif -%}
-          {% endfor %}
+          {%- endfor -%}
         {%- endif -%}
-
-        {%- if forloop.length > 1 -%}
-          {% if forloop.first == false -%}
-            {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
-          {%- endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
-        {% endif %}
-        {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </em>
+        {%- assign coauthor_url = null -%}
+        {%- assign clean_last_name = author_last_name | downcase | remove_accents -%}
+        {%- if site.data.coauthors[clean_last_name] -%}
+          {%- for coauthor in site.data.coauthors[clean_last_name] -%}
+            {%- if coauthor.firstname contains author.first -%}
+              {%- assign coauthor_url = coauthor.url -%}
+              {%- break -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+        {%- if author.first != blank -%}
+          {%- assign author_name = author.first | append: ' ' | append: author_last_html -%}
         {%- else -%}
-          {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </a>
-          {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
-          {% endif %}
+          {%- assign author_name = author_last_html -%}
         {%- endif -%}
-      {% endfor %}
-      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
+        {%- if author_is_self -%}<em>{{ author_name }}</em>{%- elsif coauthor_url -%}<a href="{{ coauthor_url }}">{{ author_name }}</a>{%- else -%}{{ author_name }}{%- endif -%}{%- unless forloop.last -%}{{ ', ' }}{%- endunless -%}{%- if forloop.last and more_authors > 0 -%}{{ ', ' }}{%- endif -%}
+      {%- endfor -%}
 
       {%- assign more_authors_hide = more_authors | append: ' more author' -%}
       {% if more_authors > 0 %}
@@ -116,7 +110,6 @@
           {% endunless %}
         {%- endfor -%}
         {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
-        , and
         <span
           class="more-authors"
           title="click to view {{ more_authors_hide }}"
@@ -157,6 +150,10 @@
       {% capture entrytype %}<em>In {{ entry.booktitle }}</em>{% endcapture %}
     {% elsif thesis contains entry.type %}
       {% capture entrytype %}<em>{{ entry.school }}</em>{% endcapture %}
+    {% elsif entry.type == 'misc' and entry.howpublished %}
+      {% capture entrytype %}<em>{{ entry.howpublished }}</em>{% endcapture %}
+    {% elsif entry.type == 'book' and entry.publisher %}
+      {% capture entrytype %}<em>{{ entry.publisher }}</em>{% endcapture %}
     {% else %}
       {% capture entrytype %}{% endcapture %}
     {% endif %}
@@ -179,13 +176,26 @@
       {% include hook/bib.liquid %}
     {% endif %}
     {% assign entrytype_text = entrytype | strip_html | strip %}
-    {% capture periodical %}{{ entrytype }}{% if entrytype_text != "" and entryyear != "" %}, {% endif %}{{ entrymonth }}{{ entryyear }}{% endcapture %}
+    {% capture bibdetails -%}
+{%- if entry.volume -%}Vol. {{ entry.volume }}{%- endif -%}
+{%- if entry.number -%}{% if entry.volume %}, {% endif %}No. {{ entry.number }}{%- endif -%}
+{%- if entry.pages -%}{% if entry.volume or entry.number %}, {% endif %}pp. {{ entry.pages | replace: '--', '-' }}{%- endif -%}
+{%- endcapture %}
+    {% assign bibdetails = bibdetails | strip %}
+    {% capture periodical -%}
+{{- entrytype -}}
+{%- if bibdetails != '' -%}, {{ bibdetails }}{%- endif -%}
+{%- if entrytype_text != '' or bibdetails != '' -%}{%- if entryyear != '' -%}, {%- endif -%}{%- endif -%}
+{{- entrymonth -}}{{- entryyear -}}
+{%- endcapture %}
     <div class="periodical">
       {{ periodical | strip }}
     </div>
-    <div class="periodical">
-      {{ entry.note | strip }}
-    </div>
+    {% if entry.note != blank %}
+      <div class="periodical">
+        {{ entry.note | strip }}
+      </div>
+    {% endif %}
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -206,8 +216,8 @@
       {% if entry.hal %}
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
       {% endif %}
-      {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
+      {% if entry.bibtex %}
+        <a class="bibtex btn btn-sm z-depth-0" role="button">BibTeX</a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -376,7 +386,7 @@
       </div>
     {% endif %}
 
-    {% if entry.bibtex_show %}
+    {% if entry.bibtex %}
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">
         {% highlight bibtex %}

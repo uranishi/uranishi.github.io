@@ -95,19 +95,30 @@ ul.task-list input[type="checkbox"] {
 .cv {
   margin-bottom: 40px;
 
-  .card {
-    background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
-
+  .card,
+  .cv-section-card {
     .list-group-item {
-      background-color: inherit;
+      background-color: transparent;
       border-color: var(--global-divider-color);
+      color: var(--global-text-color);
 
       .badge {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
       }
     }
+
+    .card-title,
+    .card-text,
+    .title,
+    h6 {
+      color: var(--global-text-color);
+    }
+  }
+
+  .card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
   }
 }
 
