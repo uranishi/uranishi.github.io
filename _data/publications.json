@@ -6625,5 +6625,28 @@
     "raw_text": "吉見光平, ラサミー ポチャラ, 浦西友樹, 東田学, オーロスキ ジェーソン, 竹村治雄, \"GhostReplay: 人体モデルアニメーションを用いた3次元リプレイ提示によるスポーツにおける技能向上支援システム\", 第65回システム制御情報学会研究発表講演会 論文集, TS12-02-3, オンライン (2021.5)",
     "created_at": "2026-06-26T00:38:58.849142",
     "updated_at": "2026-06-26T00:38:58.849142"
+  },
+  {
+    "id": 302,
+    "selected": true,
+    "category_id": 2,
+    "category": "Journal Papers",
+    "title": "TransPortal: A Portable Portal-Based Locomotion Technique",
+    "authors": "Daichi Hirobe, Shizuka Shirai, Jason Orlosky, Masato Kobayashi, Yuki Uranishi and Haruo Takemura",
+    "author_roles": null,
+    "publication_info": "IEEE Transactions on Visualization and Computer Graphics",
+    "volume": "",
+    "number": "",
+    "start_page": "1",
+    "end_page": "13",
+    "publication_date": "2026-06-01T00:00:00",
+    "doi": "10.1109/TVCG.2026.3702821",
+    "venue": "",
+    "venue_date": null,
+    "additional_info": null,
+    "source_url": "https://www.computer.org/csdl/journal/tg/5555/01/11558552/2heEFwFygFi",
+    "raw_text": "Daichi Hirobe, Shizuka Shirai, Jason Orlosky, Masato Kobayashi, Yuki Uranishi and Haruo Takemura, \"TransPortal: A Portable Portal-Based Locomotion Technique\", IEEE Transactions on Visualization and Computer Graphics, pp.1-13 (2026.6) DOI: 10.1109/TVCG.2026.3702821",
+    "created_at": "2026-06-29T00:00:00.000000",
+    "updated_at": "2026-06-29T00:00:00.000000"
   }
 ]

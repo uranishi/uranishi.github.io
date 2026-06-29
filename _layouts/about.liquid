@@ -1,18 +1,31 @@
 ---
 layout: default
 ---
-<div class="post">
-  <header class="post-header">
-    <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}{% if site.title_suffix %}{{ site.title_suffix }}{% endif %}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
+{% assign show_hero = false %}
+{% if page.hero and page.hero.image %}
+  {% if page.hero.enabled == nil or page.hero.enabled != false %}
+    {% assign show_hero = true %}
+  {% endif %}
+{% endif %}
+
+{% if show_hero %}
+  {% include about_hero.liquid %}
+{% endif %}
+
+<div class="post{% if show_hero %} post--with-hero{% endif %}">
+  {% unless show_hero %}
+    <header class="post-header">
+      <h1 class="post-title">
+        {% if site.title == 'blank' %}
+          <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+          {{ site.last_name }}{% if site.title_suffix %}{{ site.title_suffix }}{% endif %}
+        {% else %}
+          {{ site.title }}
+        {% endif %}
+      </h1>
+      <p class="desc">{{ page.subtitle }}</p>
+    </header>
+  {% endunless %}
 
   <article>
     {% if page.profile %}
@@ -89,3 +102,6 @@ layout: default
     {% endif %}
   </article>
 </div>
+{% if show_hero %}
+  <script src="{{ '/assets/js/about-hero.js' | relative_url | bust_file_cache }}" defer></script>
+{% endif %}

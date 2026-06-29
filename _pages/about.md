@@ -5,6 +5,12 @@ permalink: /
 lang: en
 cv_data: cv
 
+hero:
+  image: hero.jpg
+  alt: Cybermedia Center, The University of Osaka
+  height: 42vh
+  focal: center 40%
+
 profile:
   align: right
   image: prof_pic.jpg
@@ -39,7 +45,9 @@ latest_posts:
   limit: 3
 ---
 
-Yuki Uranishi (浦西 友樹) is a Professor at the [Cybermedia Education Division, D3 Center](https://www.d3c.osaka-u.ac.jp/), [The University of Osaka](https://www.osaka-u.ac.jp/en). He also holds concurrent professorships at the Center for Education in Liberal Arts and Sciences, the School of Engineering Science, the Graduate School of Information Science and Technology, the Center for Student Success Research and Practice, the Institute for Transdisciplinary Graduate Degree Programs, and the Nakanoshima Art Center.
+<p class="about-profile-name">Yuki Uranishi <span class="about-profile-name__ruby">(浦西 友樹)</span></p>
+
+Professor at the [Cybermedia Education Division, D3 Center](https://www.d3c.osaka-u.ac.jp/), [The University of Osaka](https://www.osaka-u.ac.jp/en). He also holds concurrent professorships at the Center for Education in Liberal Arts and Sciences, the School of Engineering Science, the Graduate School of Information Science and Technology, the Center for Student Success Research and Practice, the Institute for Transdisciplinary Graduate Degree Programs, and the Nakanoshima Art Center.
 
 He received his Ph.D. in Engineering from the [Nara Institute of Science and Technology (NAIST)](https://www.naist.jp/) in 2008.
 

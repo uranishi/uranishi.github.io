@@ -131,6 +131,11 @@ def build_bibtex_entry(item: dict, selected: bool = False) -> list[str]:
     if item.get("additional_info"):
         lines.append(f"  note = {{{bib_escape(item['additional_info'])}}},")
 
+    if item.get("award"):
+        lines.append(f"  award = {{{bib_escape(str(item['award']))}}},")
+    if item.get("award_name"):
+        lines.append(f"  award_name = {{{bib_escape(str(item['award_name']))}}},")
+
     lines.append(f"  abbr = {{{abbr}}},")
     if selected:
         lines.append("  selected = {true},")

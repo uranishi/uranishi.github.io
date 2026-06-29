@@ -1,0 +1,45 @@
+{% comment %}
+  Optional full-width hero banner for the about page.
+  Configure via front matter, e.g.:
+    hero:
+      image: hero.jpg
+      alt: Cybermedia Center, The University of Osaka
+      height: 42vh
+      focal: center 40%
+{% endcomment %}
+
+{% assign hero_height = page.hero.height | default: '42vh' %}
+{% assign hero_focal = page.hero.focal | default: 'center center' %}
+{% assign hero_overlay = page.hero.overlay | default: 0.52 %}
+{% assign hero_image_path = page.hero.image | prepend: 'assets/img/' %}
+{% assign hero_alt = page.hero.alt | default: site.first_name | append: ' ' | append: site.last_name %}
+
+<section
+  class="about-hero"
+  style="--about-hero-height: {{ hero_height }}; --about-hero-focal: {{ hero_focal }}; --about-hero-overlay: {{ hero_overlay }};"
+  aria-label="{{ site.first_name }} {{ site.last_name }}"
+>
+  <img
+    class="about-hero__photo"
+    src="{{ hero_image_path | relative_url | bust_file_cache }}"
+    alt="{{ hero_alt }}"
+    loading="eager"
+    decoding="async"
+  >
+  <div class="about-hero__scrim" aria-hidden="true"></div>
+  <div class="about-hero__content">
+    <h1 class="about-hero__title">
+      {% if site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}{% if site.title_suffix %}{{ site.title_suffix }}{% endif %}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    {% if page.hero.subtitle %}
+      <p class="about-hero__subtitle">{{ page.hero.subtitle }}</p>
+    {% elsif page.subtitle %}
+      <p class="about-hero__subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </div>
+</section>

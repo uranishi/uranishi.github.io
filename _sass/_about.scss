@@ -79,6 +79,156 @@
 }
 
 /*******************************************************************************
+ * About page hero banner (optional, configured in page front matter)
+ ******************************************************************************/
+
+.container--about-hero {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.about-profile-name {
+  margin: 0 0 1rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: 0.03em;
+  color: var(--global-text-color);
+}
+
+.about-profile-name__ruby {
+  font-size: 0.88em;
+  font-weight: 400;
+  color: var(--global-text-color-light);
+}
+
+.post--with-hero {
+  margin-top: 0;
+  padding-top: 2.5rem;
+
+  @media (min-width: 768px) {
+    padding-top: 3rem;
+  }
+}
+
+.about-hero {
+  position: relative;
+  width: 100vw;
+  max-width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: -57px;
+  min-height: max(var(--about-hero-height, 42vh), 17rem);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+}
+
+.about-hero__photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--about-hero-focal, center center);
+}
+
+.about-hero__scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, calc(var(--about-hero-overlay, 0.52) * 0.55)) 0%,
+      rgba(0, 0, 0, var(--about-hero-overlay, 0.52)) 55%,
+      rgba(0, 0, 0, calc(var(--about-hero-overlay, 0.52) + 0.08)) 100%
+    );
+}
+
+.about-hero__content {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 930px);
+  margin: 0 auto;
+  padding: 4.75rem 1.25rem 2.75rem;
+  text-align: center;
+}
+
+.about-hero__title {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(1.75rem, 4vw, 2.35rem);
+  font-weight: 300;
+  line-height: 1.25;
+  text-shadow: 0 1px 18px rgba(0, 0, 0, 0.35);
+
+  .font-weight-bold {
+    font-weight: 700;
+  }
+}
+
+.about-hero__subtitle {
+  margin: 0.65rem 0 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+body.about-hero-page:not(.about-hero-scrolled) {
+  .navbar.navbar-light {
+    background-color: rgba(0, 0, 0, 0.08);
+    border-bottom-color: rgba(255, 255, 255, 0.14);
+    backdrop-filter: blur(6px);
+    opacity: 1;
+
+    .navbar-brand,
+    .navbar-nav .nav-item .nav-link,
+    #light-toggle,
+    #search-toggle {
+      color: rgba(255, 255, 255, 0.95);
+    }
+
+    .navbar-nav .nav-item .nav-link:hover,
+    #light-toggle:hover,
+    #search-toggle:hover {
+      color: #fff;
+    }
+
+    .navbar-nav .nav-item.active > .nav-link {
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .navbar-brand.social a i::before {
+      color: rgba(255, 255, 255, 0.95);
+    }
+
+    .navbar-brand.social a:hover i::before {
+      color: #fff;
+    }
+
+    .navbar-toggler .icon-bar {
+      background-color: #fff;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .about-hero {
+    min-height: max(var(--about-hero-height, 36vh), 14rem);
+  }
+
+  .about-hero__content {
+    padding-top: 4.25rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/*******************************************************************************
  * CV jump navigation and collapsible sections
  ******************************************************************************/
 
