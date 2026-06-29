@@ -1,0 +1,1 @@
+!function(){function e(){document.body.classList.toggle(t,window.scrollY>n)}const o=document.querySelector(".about-hero");if(!o)return;const t="about-hero-scrolled",n=Math.max(o.offsetHeight-72,120);window.addEventListener("scroll",e,{passive:!0}),window.addEventListener("resize",e,{passive:!0}),e()}();
