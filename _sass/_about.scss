@@ -183,89 +183,36 @@ body.about-hero-page.fixed-top-nav {
   line-height: 1.5;
 }
 
-body.about-hero-page:not(.about-hero-scrolled) {
-  html[data-theme="dark"] & .navbar.navbar-light {
+body.about-hero-page .navbar.navbar-light {
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  opacity: 1;
+
+  html[data-theme="dark"] & {
     background-color: rgba(0, 0, 0, 0.08);
     border-bottom-color: rgba(255, 255, 255, 0.14);
-    backdrop-filter: blur(6px);
-    opacity: 1;
-
-    .navbar-brand,
-    .navbar-nav .nav-item .nav-link,
-    #light-toggle,
-    #search-toggle {
-      color: rgba(255, 255, 255, 0.95);
-    }
-
-    .navbar-nav .nav-item .nav-link:hover,
-    #light-toggle:hover,
-    #search-toggle:hover {
-      color: #fff;
-    }
-
-    .navbar-nav .nav-item.active > .nav-link {
-      color: #fff;
-      font-weight: 700;
-    }
-
-    .navbar-brand.social a i::before {
-      color: rgba(255, 255, 255, 0.95);
-    }
-
-    .navbar-brand.social a:hover i::before {
-      color: #fff;
-    }
-
-    .navbar-toggler .icon-bar {
-      background-color: #fff;
-    }
   }
 
-  @media (max-width: 575.98px) {
-    html[data-theme="dark"] & .navbar-collapse {
+  html:not([data-theme="dark"]) & {
+    background-color: rgba(255, 255, 255, 0.72);
+    border-bottom-color: var(--global-divider-color);
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.about-hero-page .navbar-collapse {
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    html[data-theme="dark"] & {
       background-color: rgba(0, 0, 0, 0.88);
       border-color: rgba(255, 255, 255, 0.12);
       box-shadow: 0 0.45rem 1rem rgba(0, 0, 0, 0.28);
     }
-  }
-}
 
-html:not([data-theme="dark"]) body.about-hero-page:not(.about-hero-scrolled) .navbar.navbar-light {
-  background-color: var(--global-bg-color);
-  border-bottom-color: var(--global-divider-color);
-  backdrop-filter: none;
-
-  .navbar-brand.social a i::before {
-    color: var(--global-text-color);
-  }
-
-  .navbar-brand.social a:hover i::before {
-    color: var(--global-theme-color);
-  }
-
-  .navbar-nav .nav-item .nav-link,
-  #light-toggle,
-  #search-toggle {
-    color: var(--global-text-color);
-  }
-
-  .navbar-nav .nav-item .nav-link:hover,
-  #light-toggle:hover,
-  #search-toggle:hover {
-    color: var(--global-hover-color);
-  }
-
-  .navbar-nav .nav-item.active > .nav-link {
-    color: var(--global-theme-color);
-    font-weight: bolder;
-
-    &:hover {
-      color: var(--global-hover-color);
+    html:not([data-theme="dark"]) & {
+      background-color: rgba(255, 255, 255, 0.92);
     }
-  }
-
-  .navbar-toggler .icon-bar {
-    background-color: var(--global-text-color);
   }
 }
 
