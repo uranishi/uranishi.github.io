@@ -90,6 +90,34 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+@media (max-width: 767.98px) {
+  .post .profile.float-right,
+  .post .profile.float-left {
+    float: none !important;
+    width: auto;
+    max-width: 10rem;
+    margin: 0 auto 1.25rem !important;
+    text-align: center;
+  }
+
+  .post .profile figure {
+    margin: 0 auto;
+    max-width: 8.5rem;
+    width: 8.5rem;
+  }
+
+  .post .profile img,
+  .post .profile figure img {
+    width: 8.5rem !important;
+    height: 8.5rem !important;
+    max-width: 8.5rem !important;
+    object-fit: cover;
+    border-radius: 50% !important;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 // CV
 
 .cv {

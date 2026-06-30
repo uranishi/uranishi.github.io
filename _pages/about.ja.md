@@ -47,9 +47,9 @@ latest_posts:
 
 <p class="about-profile-name">浦西 友樹 <span class="about-profile-name__ruby">(うらにし ゆうき)</span></p>
 
-大阪大学 [D3センター サイバーメディア教育研究部門](https://www.d3c.osaka-u.ac.jp/) 教授
+[大阪大学](https://www.osaka-u.ac.jp/ja) [D3センター サイバーメディア教育研究部門](https://www.d3c.osaka-u.ac.jp/) 教授
 
-同 [全学教育推進機構](https://www.osaka-u.ac.jp/ja/education/), [基礎工学部](https://www.es.osaka-u.ac.jp/ja/), [情報科学研究科](https://www.ist.osaka-u.ac.jp/), [スチューデント・ライフサイクルサポートセンター](https://www.osaka-u.ac.jp/ja/education/student-support/), [学際大学院機構](https://www.osaka-u.ac.jp/ja/research/interdisciplinary/), [中之島芸術センター](https://www.nakanoshima-art.jp/) 教授（兼任）
+同 [全学教育推進機構](https://www.celas.osaka-u.ac.jp/), [基礎工学部](https://www.es.osaka-u.ac.jp/ja/), [情報科学研究科](https://www.ist.osaka-u.ac.jp/japanese/), [スチューデント・ライフサイクルサポートセンター](https://slics.osaka-u.ac.jp/), [学際大学院機構](https://itgp.osaka-u.ac.jp/), [中之島芸術センター](https://www.art.osaka-u.ac.jp/) 教授（兼任）
 
 博士 (工学・[奈良先端科学技術大学院大学](https://www.naist.jp/))
 

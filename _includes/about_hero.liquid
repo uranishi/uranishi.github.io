@@ -9,6 +9,7 @@
 {% endcomment %}
 
 {% assign hero_height = page.hero.height | default: '42vh' %}
+{% assign hero_height_mobile = page.hero.mobile_height | default: '26vh' %}
 {% assign hero_focal = page.hero.focal | default: 'center center' %}
 {% assign hero_overlay = page.hero.overlay | default: 0.52 %}
 {% assign hero_image_path = page.hero.image | prepend: 'assets/img/' %}
@@ -16,7 +17,7 @@
 
 <section
   class="about-hero"
-  style="--about-hero-height: {{ hero_height }}; --about-hero-focal: {{ hero_focal }}; --about-hero-overlay: {{ hero_overlay }};"
+  style="--about-hero-height: {{ hero_height }}; --about-hero-height-mobile: {{ hero_height_mobile }}; --about-hero-focal: {{ hero_focal }}; --about-hero-overlay: {{ hero_overlay }};"
   aria-label="{{ site.first_name }} {{ site.last_name }}"
 >
   <img
