@@ -36,7 +36,9 @@
       class="pub-view-toggle__btn{% if current_lang == 'en' %} active{% endif %}"
       href="{{ en_url }}"
       lang="en"
-      {% if current_lang == 'en' %}aria-current="page"{% endif %}
+      {% if current_lang == 'en' %}
+        aria-current="page"
+      {% endif %}
     >
       EN
     </a>
@@ -44,7 +46,9 @@
       class="pub-view-toggle__btn{% if current_lang == 'ja' %} active{% endif %}"
       href="{{ ja_url }}"
       lang="ja"
-      {% if current_lang == 'ja' %}aria-current="page"{% endif %}
+      {% if current_lang == 'ja' %}
+        aria-current="page"
+      {% endif %}
     >
       JA
     </a>

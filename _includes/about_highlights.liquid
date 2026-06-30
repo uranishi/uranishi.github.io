@@ -12,7 +12,9 @@
         </div>
         <ul class="about-chip-list">
           {% for item in page.research_interests %}
-            <li><span class="about-chip about-chip--accent">{{ item }}</span></li>
+            <li>
+              <span class="about-chip about-chip--accent">{{ item }}</span>
+            </li>
           {% endfor %}
         </ul>
       </section>
@@ -26,7 +28,9 @@
         </div>
         <ul class="about-chip-list">
           {% for item in page.memberships %}
-            <li><span class="about-chip">{{ item }}</span></li>
+            <li>
+              <span class="about-chip">{{ item }}</span>
+            </li>
           {% endfor %}
         </ul>
       </section>

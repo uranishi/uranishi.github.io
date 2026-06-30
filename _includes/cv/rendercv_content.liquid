@@ -14,7 +14,6 @@
 {% assign cv_i18n = site.data.i18n[cv_locale].cv_sections %}
 
 {% if cv %}
-
   {% unless include.skip_header %}
     {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
       <div class="card mt-3 p-3">
@@ -83,7 +82,9 @@
     <a class="anchor" id="cv-experience"></a>
     <details class="cv-section-card mt-3" open>
       <summary class="cv-section-card__summary">
-        <h3 class="card-title font-weight-medium mb-0">{% if cv_i18n.Experience %}{{ cv_i18n.Experience }}{% else %}Experience{% endif %}</h3>
+        <h3 class="card-title font-weight-medium mb-0">
+          {% if cv_i18n.Experience %}{{ cv_i18n.Experience }}{% else %}Experience{% endif %}
+        </h3>
       </summary>
       <div class="cv-section-card__body">
         {% assign entries = combined_experience %}
@@ -103,7 +104,12 @@
 
     {% assign cv_section_index = cv_section_index | plus: 1 %}
     <a class="anchor" id="cv-{{ section_title | slugify }}"></a>
-    <details class="cv-section-card mt-3"{% if cv_section_index <= 2 %} open{% endif %}>
+    <details
+      class="cv-section-card mt-3"
+      {% if cv_section_index <= 2 %}
+        open
+      {% endif %}
+    >
       <summary class="cv-section-card__summary">
         <h3 class="card-title font-weight-medium mb-0">
           {%- if cv_i18n[section_title] -%}

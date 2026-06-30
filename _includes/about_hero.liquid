@@ -32,7 +32,8 @@
     <h1 class="about-hero__title">
       {% if site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}{% if site.title_suffix %}{{ site.title_suffix }}{% endif %}
+        {{ site.last_name -}}
+        {%- if site.title_suffix %}{{ site.title_suffix }}{% endif %}
       {% else %}
         {{ site.title }}
       {% endif %}

@@ -94,7 +94,15 @@
         {%- else -%}
           {%- assign author_name = author_last_html -%}
         {%- endif -%}
-        {%- if author_is_self -%}<em>{{ author_name }}</em>{%- elsif coauthor_url -%}<a href="{{ coauthor_url }}">{{ author_name }}</a>{%- else -%}{{ author_name }}{%- endif -%}{%- unless forloop.last -%}{{ ', ' }}{%- endunless -%}{%- if forloop.last and more_authors > 0 -%}{{ ', ' }}{%- endif -%}
+        {%- if author_is_self -%}
+          <em>{{ author_name }}</em>
+        {%- elsif coauthor_url -%}
+          <a href="{{ coauthor_url }}">{{ author_name }}</a>
+        {%- else -%}
+          {{ author_name }}
+        {%- endif -%}
+        {%- unless forloop.last -%}{{ ', ' }}{%- endunless -%}
+        {%- if forloop.last and more_authors > 0 -%}{{ ', ' }}{%- endif -%}
       {%- endfor -%}
 
       {%- assign more_authors_hide = more_authors | append: ' more author' -%}

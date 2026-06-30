@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign show_hero = false %}
 {% if page.hero and page.hero.image %}
-  {% if page.hero.enabled == nil or page.hero.enabled != false %}
+  {% if page.hero.enabled == null or page.hero.enabled != false %}
     {% assign show_hero = true %}
   {% endif %}
 {% endif %}
@@ -18,7 +18,8 @@ layout: default
       <h1 class="post-title">
         {% if site.title == 'blank' %}
           <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-          {{ site.last_name }}{% if site.title_suffix %}{{ site.title_suffix }}{% endif %}
+          {{ site.last_name -}}
+          {%- if site.title_suffix %}{{ site.title_suffix }}{% endif %}
         {% else %}
           {{ site.title }}
         {% endif %}
@@ -56,7 +57,12 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{% if page.lang == 'ja' %}{{ '/ja/publications/' | relative_url }}{% else %}{{ '/publications/' | relative_url }}{% endif %}" style="color: inherit">{% include i18n.liquid key='selected_publications' %}</a>
+        <a
+          href="{% if page.lang == 'ja' %}{{ '/ja/publications/' | relative_url }}{% else %}{{ '/publications/' | relative_url }}{% endif %}"
+          style="color: inherit"
+        >
+          {%- include i18n.liquid key='selected_publications' -%}
+        </a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
