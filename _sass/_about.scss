@@ -173,6 +173,7 @@ body.about-hero-page.fixed-top-nav {
 
   .font-weight-bold {
     font-weight: 700;
+    color: inherit;
   }
 }
 
@@ -184,7 +185,7 @@ body.about-hero-page.fixed-top-nav {
 }
 
 body.about-hero-page:not(.about-hero-scrolled) {
-  .navbar.navbar-light {
+  html[data-theme="dark"] & .navbar.navbar-light {
     background-color: rgba(0, 0, 0, 0.08);
     border-bottom-color: rgba(255, 255, 255, 0.14);
     backdrop-filter: blur(6px);
@@ -230,40 +231,42 @@ body.about-hero-page:not(.about-hero-scrolled) {
   }
 }
 
-@media (max-width: 575.98px) {
-  html:not([data-theme="dark"]) body.about-hero-page:not(.about-hero-scrolled) .navbar.navbar-light {
-    background-color: var(--global-bg-color);
-    border-bottom-color: var(--global-divider-color);
-    backdrop-filter: none;
+html:not([data-theme="dark"]) body.about-hero-page:not(.about-hero-scrolled) .navbar.navbar-light {
+  background-color: var(--global-bg-color);
+  border-bottom-color: var(--global-divider-color);
+  backdrop-filter: none;
 
-    .navbar-brand.social a i::before {
-      color: var(--global-text-color);
-    }
+  .navbar-brand.social a i::before {
+    color: var(--global-text-color);
+  }
 
-    .navbar-brand.social a:hover i::before {
-      color: var(--global-theme-color);
-    }
+  .navbar-brand.social a:hover i::before {
+    color: var(--global-theme-color);
+  }
 
-    .navbar-nav .nav-item .nav-link,
-    #light-toggle,
-    #search-toggle {
-      color: var(--global-text-color);
-    }
+  .navbar-nav .nav-item .nav-link,
+  #light-toggle,
+  #search-toggle {
+    color: var(--global-text-color);
+  }
 
-    .navbar-nav .nav-item .nav-link:hover,
-    #light-toggle:hover,
-    #search-toggle:hover {
+  .navbar-nav .nav-item .nav-link:hover,
+  #light-toggle:hover,
+  #search-toggle:hover {
+    color: var(--global-hover-color);
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    color: var(--global-theme-color);
+    font-weight: bolder;
+
+    &:hover {
       color: var(--global-hover-color);
     }
+  }
 
-    .navbar-nav .nav-item.active > .nav-link {
-      color: var(--global-text-color);
-      font-weight: 700;
-    }
-
-    .navbar-toggler .icon-bar {
-      background-color: var(--global-text-color);
-    }
+  .navbar-toggler .icon-bar {
+    background-color: var(--global-text-color);
   }
 }
 
