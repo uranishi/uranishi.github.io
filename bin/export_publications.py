@@ -6,12 +6,14 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from collections import Counter
 from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BIB_PATH = ROOT / "_bibliography" / "papers.bib"
 JSON_PATH = ROOT / "_data" / "publications.json"
+STATS_PATH = ROOT / "_data" / "publication_stats.json"
 
 CATEGORY_TYPE = {
     "Books": ("book", "BOOK"),
@@ -161,6 +163,24 @@ def choose_selected_ids(items: list[dict], limit: int = 6) -> set[int]:
     return {item["id"] for item in journal[:limit]}
 
 
+def build_stats(items: list[dict]) -> dict:
+    by_abbr: Counter[str] = Counter()
+    by_year: Counter[str] = Counter()
+    for item in items:
+        _, abbr = entry_type_and_abbr(item.get("category"))
+        by_abbr[abbr] += 1
+        pub_date = parse_date(item.get("publication_date"))
+        if pub_date:
+            by_year[str(pub_date.year)] += 1
+    years_desc = sorted(by_year.keys(), key=int, reverse=True)
+    return {
+        "total": len(items),
+        "by_abbr": dict(sorted(by_abbr.items())),
+        "by_year": dict(sorted(by_year.items(), key=lambda pair: int(pair[0]), reverse=True)),
+        "years_desc": years_desc,
+    }
+
+
 def export_bibtex(items: list[dict], selected_ids: set[int]) -> str:
     header = [
         "% Auto-generated from _data/publications.json",
@@ -172,6 +192,13 @@ def export_bibtex(items: list[dict], selected_ids: set[int]) -> str:
         body.extend(build_bibtex_entry(item, selected=item["id"] in selected_ids))
         body.append("")
     return "\n".join(header + body)
+
+
+def export_stats(items: list[dict]) -> None:
+    STATS_PATH.write_text(
+        json.dumps(build_stats(items), ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
 
 
 def load_master(path: Path) -> list[dict]:
@@ -203,7 +230,9 @@ def main() -> int:
 
     BIB_PATH.parent.mkdir(parents=True, exist_ok=True)
     BIB_PATH.write_text(bib, encoding="utf-8")
+    export_stats(items)
     print(f"Wrote {len(items)} entries to {BIB_PATH}")
+    print(f"Wrote publication stats to {STATS_PATH}")
     return 0
 
 

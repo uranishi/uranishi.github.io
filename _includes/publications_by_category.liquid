@@ -4,22 +4,35 @@
 {% endcomment %}
 {% assign cat_locale = page.lang | default: 'en' %}
 {% assign cat_i18n = site.data.i18n[cat_locale].publications.categories %}
+{% assign by_abbr = site.data.publication_stats.by_abbr %}
 <div class="publications">
-  <h2 class="bibliography">{{ cat_i18n.books }}</h2>
-  {% bibliography --group_by none --query @*[abbr=BOOK]* %}
+  {% if by_abbr.BOOK and by_abbr.BOOK > 0 %}
+    {% include publication_group_heading.liquid label=cat_i18n.books count=by_abbr.BOOK %}
+    {% bibliography --group_by none --query @*[abbr=BOOK]* %}
+  {% endif %}
 
-  <h2 class="bibliography">{{ cat_i18n.journal }}</h2>
-  {% bibliography --group_by none --query @*[abbr=JOUR]* %}
+  {% if by_abbr.JOUR and by_abbr.JOUR > 0 %}
+    {% include publication_group_heading.liquid label=cat_i18n.journal count=by_abbr.JOUR %}
+    {% bibliography --group_by none --query @*[abbr=JOUR]* %}
+  {% endif %}
 
-  <h2 class="bibliography">{{ cat_i18n.talks }}</h2>
-  {% bibliography --group_by none --query @*[abbr=TALK]* %}
+  {% if by_abbr.TALK and by_abbr.TALK > 0 %}
+    {% include publication_group_heading.liquid label=cat_i18n.talks count=by_abbr.TALK %}
+    {% bibliography --group_by none --query @*[abbr=TALK]* %}
+  {% endif %}
 
-  <h2 class="bibliography">{{ cat_i18n.intl }}</h2>
-  {% bibliography --group_by none --query @*[abbr=INTL]* %}
+  {% if by_abbr.INTL and by_abbr.INTL > 0 %}
+    {% include publication_group_heading.liquid label=cat_i18n.intl count=by_abbr.INTL %}
+    {% bibliography --group_by none --query @*[abbr=INTL]* %}
+  {% endif %}
 
-  <h2 class="bibliography">{{ cat_i18n.dom }}</h2>
-  {% bibliography --group_by none --query @*[abbr=DOM]* %}
+  {% if by_abbr.DOM and by_abbr.DOM > 0 %}
+    {% include publication_group_heading.liquid label=cat_i18n.dom count=by_abbr.DOM %}
+    {% bibliography --group_by none --query @*[abbr=DOM]* %}
+  {% endif %}
 
-  <h2 class="bibliography">{{ cat_i18n.misc }}</h2>
-  {% bibliography --group_by none --query @*[abbr=MISC]* %}
+  {% if by_abbr.MISC and by_abbr.MISC > 0 %}
+    {% include publication_group_heading.liquid label=cat_i18n.misc count=by_abbr.MISC %}
+    {% bibliography --group_by none --query @*[abbr=MISC]* %}
+  {% endif %}
 </div>

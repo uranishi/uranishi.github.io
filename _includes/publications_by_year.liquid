@@ -1,0 +1,18 @@
+{% comment %}
+  Year sections with counts from _data/publication_stats.json.
+{% endcomment %}
+{% assign pub_stats = site.data.publication_stats %}
+<div class="publications">
+  {% for year in pub_stats.years_desc %}
+    {% assign year_count = pub_stats.by_year[year] %}
+    {% if year_count and year_count > 0 %}
+      {% if page.lang == 'ja' %}
+        {% capture year_label %}{{ year }}年{% endcapture %}
+      {% else %}
+        {% assign year_label = year %}
+      {% endif %}
+      {% include publication_group_heading.liquid label=year_label count=year_count %}
+      {% bibliography --group_by none --query @*[year={{ year }}]* %}
+    {% endif %}
+  {% endfor %}
+</div>

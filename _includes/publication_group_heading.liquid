@@ -1,0 +1,15 @@
+{% comment %}
+  Section heading with publication count.
+  Parameters: label (string), count (number)
+{% endcomment %}
+{% assign heading_locale = page.lang | default: 'en' %}
+<h2 class="bibliography">
+  {{ include.label -}}
+  <span class="pub-group-count">
+    {%- if heading_locale == 'ja' -%}
+      ({{ include.count }}件)
+    {%- else -%}
+      ({{ include.count }})
+    {%- endif -%}
+  </span>
+</h2>

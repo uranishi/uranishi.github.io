@@ -29,6 +29,13 @@
     padding-top: 1rem;
     margin-top: 2rem;
     text-align: right;
+
+    .pub-group-count {
+      font-size: 0.75em;
+      font-weight: 400;
+      color: var(--global-text-color-light);
+      margin-left: 0.35em;
+    }
   }
 
   ol.bibliography {

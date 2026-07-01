@@ -8,15 +8,13 @@ lang: en
 ---
 
 <!-- Master: _data/publications.json -->
-<!-- Export: python3 bin/export_publications.py -->
+<!-- Export: python3 bin/export_publications.py (also regenerates publication_stats.json) -->
 
 {% include bib_search.liquid %}
 {% include publication_view_toggle.liquid %}
 
 <div id="pub-view-year" class="pub-view" role="tabpanel" aria-labelledby="pub-view-tab-year">
-  <div class="publications">
-    {% bibliography --group_by year --group_order descending %}
-  </div>
+  {% include publications_by_year.liquid %}
 </div>
 
 <div id="pub-view-category" class="pub-view d-none" role="tabpanel" aria-labelledby="pub-view-tab-category" hidden>
