@@ -32,7 +32,7 @@ In the **training phase**, pairs of structural-color pattern images and correspo
 
 The marker uses a CD's concentric microstructure — originally cut for reading/writing data — together with an ArUco AR marker for pose estimation. The CD's concentric geometry approximately decouples the observed pattern from the marker's in-plane rotation, and a matte coating suppresses the specular reflection that would otherwise saturate the camera image.
 
-### Key idea: illumination direction *and* spectral distribution both leave a signature
+### Key idea: illumination direction _and_ spectral distribution both leave a signature
 
 Structural-color appearance changes with both the **elevation/azimuth of the light source** and its **spectral distribution**, even when different light sources look similarly white to a conventional camera:
 
@@ -48,7 +48,7 @@ Structural-color appearance changes with both the **elevation/azimuth of the lig
   </div>
 </div>
 
-Because the same underlying microstructure disperses light by wavelength, a white LED, a white LED with a color filter, and a halogen lamp placed in the *same* direction still produce visibly different structural-color patterns. In other words, the pattern encodes the light source's spectrum, not just its RGB appearance — which is what makes spectral estimation possible from a single low-cost marker.
+Because the same underlying microstructure disperses light by wavelength, a white LED, a white LED with a color filter, and a halogen lamp placed in the _same_ direction still produce visibly different structural-color patterns. In other words, the pattern encodes the light source's spectrum, not just its RGB appearance — which is what makes spectral estimation possible from a single low-cost marker.
 
 Unlike prior pattern-matching approaches that require pre-recorded exemplars for every viewing condition, Rainbow Learner **models** the pattern-to-illumination relationship with machine learning, improving generalization within the training distribution.
 
