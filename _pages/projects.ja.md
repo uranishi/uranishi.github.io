@@ -1,7 +1,8 @@
 ---
 layout: page
 title: projects
-permalink: /projects/
+permalink: /ja/projects/
+lang: ja
 nav: true
 nav_order: 3
 display_categories: [research]
