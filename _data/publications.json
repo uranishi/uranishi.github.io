@@ -5434,6 +5434,28 @@
     "updated_at": "2025-12-09T02:27:58.279809"
   },
   {
+    "id": 315,
+    "category_id": 3,
+    "category": "Invited Talks and Tutorials",
+    "title": "明日から使える！研究効率化ツール入門",
+    "authors": "浦西友樹, 松井勇佑, 米谷竜",
+    "author_roles": null,
+    "publication_info": "第18回データ工学と情報マネジメントに関するフォーラム(DEIM2026) チュートリアル",
+    "volume": "",
+    "number": "",
+    "start_page": "",
+    "end_page": "",
+    "publication_date": "2026-03-04T00:00:00",
+    "doi": "",
+    "venue": "",
+    "venue_date": null,
+    "additional_info": null,
+    "source_url": "https://pub.confit.atlas.jp/ja/event/deim2026/content/tutorial",
+    "raw_text": "浦西友樹, 松井勇佑, 米谷竜, \"明日から使える！研究効率化ツール入門\", 第18回データ工学と情報マネジメントに関するフォーラム(DEIM2026) チュートリアル (2026.3)",
+    "created_at": "2026-07-06T05:52:00.000000",
+    "updated_at": "2026-07-06T05:52:00.000000"
+  },
+  {
     "id": 48,
     "category_id": 3,
     "category": "Invited Talks and Tutorials",
