@@ -1,0 +1,8 @@
+﻿ファイルNo.,ファイルパス,行数,ID,種別,ステータスコード,"エラー内容(エラーコード, フィールド名, メッセージ)"
+1,/rm_books_etc.csv,3,43160544,books_etc,400,"invalid_request,担当区分(book_owner_role),無効な値が指定されました。"
+1,/rm_books_etc.csv,4,43160546,books_etc,400,"invalid_request,担当区分(book_owner_role),無効な値が指定されました。"
+1,/rm_books_etc.csv,5,10430996,books_etc,400,"invalid_request,担当区分(book_owner_role),無効な値が指定されました。"
+1,/rm_books_etc.csv,6,10447369,books_etc,400,"invalid_request,担当区分(book_owner_role),無効な値が指定されました。"
+1,/rm_books_etc.csv,7,10430998,books_etc,400,"invalid_request,担当区分(book_owner_role),無効な値が指定されました。"
+1,/rm_books_etc.csv,8,,books_etc,400,"invalid_request,担当区分(book_owner_role),無効な値が指定されました。"
+1,/rm_books_etc.csv,9,,books_etc,400,"invalid_request,担当区分(book_owner_role),無効な値が指定されました。"
