@@ -1,0 +1,484 @@
+{
+  "decisions": {
+    "R0001": "skip",
+    "R0002": "skip",
+    "R0003": "skip",
+    "R0004": "skip",
+    "R0005": "yes",
+    "R0006": "yes",
+    "R0007": "yes",
+    "R0008": "yes",
+    "R0009": "yes",
+    "R0010": "yes",
+    "R0011": "yes",
+    "R0012": "yes",
+    "R0013": "yes",
+    "R0014": "yes",
+    "R0015": "yes",
+    "R0016": "yes",
+    "R0017": "yes",
+    "R0018": "yes",
+    "R0019": "yes",
+    "R0020": "yes",
+    "R0021": "yes",
+    "R0022": "yes",
+    "R0023": "yes",
+    "R0024": "yes",
+    "R0025": "yes",
+    "R0026": "yes",
+    "R0027": "yes",
+    "R0028": "yes",
+    "R0029": "yes",
+    "R0030": "yes",
+    "R0031": "yes",
+    "R0032": "yes",
+    "R0033": "yes",
+    "R0034": "yes",
+    "R0035": "yes",
+    "R0036": "yes",
+    "R0037": "yes",
+    "R0038": "yes",
+    "R0039": "yes",
+    "R0040": "yes",
+    "R0041": "yes",
+    "R0042": "yes",
+    "R0043": "yes",
+    "R0044": "yes",
+    "R0045": "yes",
+    "R0046": "yes",
+    "R0047": "yes",
+    "R0048": "yes",
+    "R0049": "yes",
+    "R0050": "yes",
+    "R0051": "yes",
+    "R0052": "yes",
+    "R0053": "yes",
+    "R0054": "yes",
+    "R0055": "yes",
+    "R0056": "yes",
+    "R0057": "yes",
+    "R0058": "yes",
+    "R0059": "yes",
+    "R0060": "yes",
+    "R0061": "yes",
+    "R0062": "yes",
+    "R0063": "yes",
+    "R0064": "yes",
+    "R0065": "yes",
+    "R0066": "yes",
+    "R0067": "yes",
+    "R0068": "yes",
+    "R0069": "yes",
+    "R0070": "yes",
+    "R0071": "yes",
+    "R0072": "yes",
+    "R0073": "yes",
+    "R0074": "no",
+    "R0075": "yes",
+    "R0076": "no",
+    "R0077": "yes",
+    "R0078": "yes",
+    "R0079": "no",
+    "R0080": "yes",
+    "R0081": "no",
+    "R0082": "no",
+    "R0083": "yes",
+    "R0084": "no",
+    "R0085": "no",
+    "R0086": "yes",
+    "R0087": "yes",
+    "R0088": "no",
+    "R0092": "no",
+    "R0094": "no",
+    "R0095": "no",
+    "R0097": "no",
+    "R0102": "no",
+    "R0103": "no",
+    "R0104": "no",
+    "R0106": "no",
+    "R0107": "no",
+    "R0109": "no",
+    "R0112": "no",
+    "R0127": "no",
+    "R0130": "no",
+    "R0133": "no",
+    "R0142": "no",
+    "R0143": "no",
+    "R0145": "no",
+    "R0146": "no",
+    "R0148": "no",
+    "R0150": "no",
+    "R0154": "no",
+    "R0191": "no",
+    "R0089": "yes",
+    "R0090": "no",
+    "R0091": "yes",
+    "R0093": "no",
+    "R0096": "yes",
+    "R0098": "yes",
+    "R0099": "yes",
+    "R0100": "no",
+    "R0101": "yes",
+    "R0105": "yes",
+    "R0108": "yes",
+    "R0110": "yes",
+    "R0111": "yes",
+    "R0113": "no",
+    "R0114": "yes",
+    "R0115": "no",
+    "R0116": "yes",
+    "R0117": "yes",
+    "R0118": "yes",
+    "R0119": "yes",
+    "R0120": "yes",
+    "R0121": "yes",
+    "R0122": "no",
+    "R0123": "yes",
+    "R0124": "yes",
+    "R0125": "yes",
+    "R0126": "no",
+    "R0128": "no",
+    "R0129": "no",
+    "R0131": "no",
+    "R0132": "no",
+    "R0134": "no",
+    "R0135": "no",
+    "R0136": "yes",
+    "R0137": "no",
+    "R0138": "yes",
+    "R0139": "yes",
+    "R0140": "yes",
+    "R0141": "yes",
+    "R0144": "yes",
+    "R0147": "yes",
+    "R0149": "yes",
+    "R0151": "no",
+    "R0152": "no",
+    "R0153": "yes",
+    "R0155": "no",
+    "R0156": "yes",
+    "R0157": "yes",
+    "R0158": "yes",
+    "R0159": "no",
+    "R0160": "no",
+    "R0161": "no",
+    "R0162": "no",
+    "R0163": "yes",
+    "R0164": "no",
+    "R0165": "yes",
+    "R0166": "no",
+    "R0167": "no",
+    "R0168": "no",
+    "R0169": "no",
+    "R0170": "no",
+    "R0171": "no",
+    "R0172": "no",
+    "R0173": "no",
+    "R0174": "yes",
+    "R0175": "yes",
+    "R0176": "no",
+    "R0177": "no",
+    "R0178": "no",
+    "R0179": "no",
+    "R0180": "no",
+    "R0181": "no",
+    "R0182": "no",
+    "R0183": "yes",
+    "R0184": "yes",
+    "R0185": "no",
+    "R0186": "no",
+    "R0187": "no",
+    "R0188": "yes",
+    "R0189": "yes",
+    "R0190": "no",
+    "R0191": "no",
+    "R0192": "no"
+  },
+  "category_overrides": {
+    "R0077": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "情報処理学会研究報告は国内学会発表扱い"
+    },
+    "R0086": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "情報処理学会研究報告は国内学会発表扱い"
+    },
+    "R0087": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "情報処理学会研究報告は国内学会発表扱い"
+    },
+    "R0091": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "ヒューマンインタフェース学会研究報告は国内学会発表扱い"
+    },
+    "R0098": {
+      "site_category": "Invited Talks and Tutorials",
+      "rm_type": "presentations",
+      "招待の有無": "TRUE",
+      "note": "国内学会発表講演会チュートリアル→招待講演枠"
+    },
+    "R0099": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "電子情報通信学会技術研究報告は国内学会発表扱い"
+    },
+    "R0105": {
+      "site_category": "Misc.",
+      "掲載種別": "magazine_article",
+      "note": "映像情報メディア学会誌コラムはMisc扱い"
+    },
+    "R0108": {
+      "site_category": "Misc.",
+      "掲載種別": "meeting_report",
+      "note": "映像情報メディア学会誌見聞記（CVPR 2017見聞記）—サイト#288と重複のため新規追加は不要"
+    },
+    "R0110": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "電子情報通信学会技術研究報告は国内学会発表扱い"
+    },
+    "R0111": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "日本生体医工学会大会論文集"
+    },
+    "R0114": {
+      "site_category": "International Conference Proceedings",
+      "rm_type": "misc",
+      "掲載種別": "summary_international_conference",
+      "note": "国際学会要旨集。学会発表系はmisc"
+    },
+    "R0116": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "システム制御情報学会研究発表講演会"
+    },
+    "R0117": {
+      "site_category": "Misc.",
+      "掲載種別": "magazine_article",
+      "note": "システム制御情報学会誌・学会活動報告"
+    },
+    "R0118": {
+      "site_category": "Invited Talks and Tutorials",
+      "rm_type": "presentations",
+      "招待の有無": "あり",
+      "note": "チュートリアルセッション→招待講演扱い"
+    },
+    "R0120": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "日本生体医工学会大会"
+    },
+    "R0124": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "Joint Conference on Medical Informatics"
+    },
+    "R0125": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "電気学会センサ・マイクロマシン部門シンポジウム"
+    },
+    "R0136": {
+      "site_category": "Misc.",
+      "掲載種別": "magazine_article",
+      "note": "システム制御情報学会誌・書評"
+    },
+    "R0138": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "日本生体医工学会大会論文集（Transactions of JSMBE）"
+    },
+    "R0139": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "日本生体医工学会大会論文集"
+    },
+    "R0140": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "日本生体医工学会大会論文集"
+    },
+    "R0141": {
+      "site_category": "International Conference Proceedings",
+      "rm_type": "misc",
+      "掲載種別": "summary_international_conference",
+      "note": "国際シンポジウム発表要旨。学会発表系はmisc"
+    },
+    "R0147": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "電子情報通信学会技術研究報告"
+    },
+    "R0149": {
+      "site_category": "International Conference Proceedings",
+      "掲載種別": "international_conference_proceedings",
+      "note": "Proceedings of EuroHaptics 2014, Demo, Article No. d5"
+    },
+    "R0153": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "日本バーチャルリアリティ学会大会"
+    },
+    "R0156": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "電子情報通信学会技術研究報告（共催学会側掲載）"
+    },
+    "R0157": {
+      "site_category": "Journal Papers",
+      "note": "サイト#39（日本語・生体医工学 Vol.51 No.6）と同一論文。Web掲載は#39のみ"
+    },
+    "R0163": {
+      "site_category": "Misc.",
+      "掲載種別": "magazine_article",
+      "note": "映像情報industrial特集記事"
+    },
+    "R0174": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "情報処理学会DBS研究報告"
+    },
+    "R0175": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "情報処理学会CVIM研究報告（共催学会の正掲載。IEICE MVE/PRMUは重複）"
+    },
+    "R0183": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "CiNii NAID 110007877108。IEICE総合大会2010"
+    },
+    "R0184": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "第54回システム制御情報学会研究発表講演会"
+    },
+    "R0188": {
+      "site_category": "Misc.",
+      "掲載種別": "magazine_article",
+      "note": "毎日新聞奈良版コラム。奈良ユニバーサロン体験講演とは別"
+    },
+    "R0189": {
+      "site_category": "Domestic Conference Proceedings",
+      "掲載種別": "summary_national_conference",
+      "note": "CiNii NAID 110007122992。IEICE画像工学研究報告"
+    }
+  },
+  "current_review_id": null,
+  "batch_rules": {
+    "site_only_auto_yes": true,
+    "site_only_auto_yes_note": "ユーザー指示: サイトのみは無条件に追加",
+    "duplicate_default_no": true,
+    "duplicate_default_no_note": "ユーザー指示: 重複確認できれば基本no",
+    "matched_duplicate_auto_no": true,
+    "matched_duplicate_auto_no_note": "ユーザー指示: 以降マッチ済み重複は全てno",
+    "arxiv_only_auto_no": true,
+    "arxiv_only_auto_no_note": "ユーザー指示: arXivのみ掲載は一括no",
+    "tutorial_as_invited": true,
+    "tutorial_as_invited_note": "チュートリアルがなければinvited扱い",
+    "author_format_first_family": true,
+    "author_format_first_family_note": "英語著者はFirst Family形式",
+    "orcid_garbage_auto_no": true,
+    "orcid_garbage_auto_no_note": "日本色彩学会誌Vol36No1のORCID誤取り込みはno",
+    "export_policy": {
+      "journal_and_intl_proceedings": "rm_published_papers",
+      "domestic_conference": "rm_misc/summary_national_conference",
+      "intl_conference_abstract": "rm_misc/summary_international_conference",
+      "invited_talks": "rm_presentations",
+      "misc_columns": "rm_misc/magazine_article",
+      "jsmbe_transactions": "rm_misc/summary_national_conference",
+      "no_duplicate_conference": true,
+      "note": "学会発表系（国内・国際要旨・JSMBE予稿集）は全てmisc。招待講演・チュートリアルのみpresentations"
+    }
+  },
+  "current_phase": "complete",
+  "author_overrides": {
+    "R0120": {
+      "著者(英語)": "Misa Esashi, Tomohiro Nakano, Tomohide Iwao, Yuki Uranishi, Kazuya Okamoto, Genta Kato, Hisashi Saito, Hiroshi Tamura, Haruo Noma, Tomohiro Kuroda",
+      "note": "FAMILY First → First Family、重複除去、OKAMAOTO→Okamoto"
+    },
+    "R0125": {
+      "著者(英語)": "Yuta Ideguchi, Shunsuke Yoshimoto, Yoshihiro Kuroda, Osamu Oshiro, Yuki Uranishi, Masataka Imura",
+      "note": "FAMILY First → First Family"
+    },
+    "R0149": {
+      "著者(英語)": "Shunsuke Yoshimoto, Yoshihiro Kuroda, Yuki Uranishi, Masataka Imura, Osamu Oshiro",
+      "note": "書誌参照に合わせた表記"
+    },
+    "R0175": {
+      "著者(日本語)": "鈴本悠輝, 浦西友樹, 眞鍋佳嗣, 池田聖, 千原國宏",
+      "note": "共催学会プログラムに基づく正著者（奈良先端大）"
+    },
+    "R0189": {
+      "著者(英語)": "Yuki Uranishi, Sei Ikeda, Hideki Shimada, Yoshitsugu Manabe, Kunihiro Chihara",
+      "note": "First Family形式"
+    }
+  },
+  "notes": {
+    "R0132": {
+      "canonical_url": "https://ieeexplore.ieee.org/document/7328089",
+      "note": "サイト登録済み・真正情報はIEEE Xplore"
+    },
+    "R0155": {
+      "note": "Web側が正。情報処理学会EC研究会×電子情報通信学会の共催学会。RMのIEICE掲載は重複"
+    },
+    "R0175-R0177": {
+      "note": "共催学会（CVIM×MVE/PRMU）。正掲載はCVIM（R0175）。著者は鈴本悠輝,浦西友樹,眞鍋佳嗣,池田聖,千原國宏"
+    },
+    "R0183": {
+      "cinii_naid": "110007877108",
+      "note": "CiNii確認済み。タイトルはA-15-9接頭辞なし"
+    },
+    "R0189": {
+      "note": "サイト#125（IWAIT2009）と同一研究の別書式（IEICE研究報告）。Web掲載は#125のみ"
+    },
+    "R0118": {
+      "note": "R0065（サイト側）と重複。misc IDはpresentationsに使えないためエクスポート除外"
+    },
+    "R0168-R0171": {
+      "note": "ORCID取り込みエラーによる参考文献の重複登録。まとめてno"
+    }
+  },
+  "publication_overrides": {
+    "R0175": {
+      "タイトル(日本語)": "透明物体に内包される不透明物体のシルエット形状補正",
+      "巻": "2011-CVIM-175",
+      "note": "タイトルからCVIM巻号を分離。正掲載は情報処理学会CVIM研究報告"
+    },
+    "R0149": {
+      "誌名(英語)": "Proceedings of EuroHaptics",
+      "会議名(英語)": "Proceedings of EuroHaptics",
+      "出版年月": "2014",
+      "開始ページ": "d5",
+      "記述言語": "eng",
+      "note": "Demo, Article No. d5"
+    },
+    "R0183": {
+      "タイトル(日本語)": "指輪型マーカの三次元位置姿勢推定",
+      "タイトル(英語)": "Estimation of 3D Position and Posture for Ring-Type Marker",
+      "出版年月": "2010-03",
+      "誌名(日本語)": "電子情報通信学会総合大会講演論文集",
+      "巻": "2010",
+      "開始ページ": "191",
+      "終了ページ": "191",
+      "記述言語": "jpn",
+      "note": "CiNii NAID 110007877108"
+    },
+    "R0189": {
+      "出版年月": "2009-01",
+      "誌名(日本語)": "電子情報通信学会技術研究報告. IE, 画像工学",
+      "誌名(英語)": "IEICE technical report",
+      "巻": "108",
+      "号": "373",
+      "開始ページ": "389",
+      "終了ページ": "392",
+      "記述言語": "eng",
+      "note": "CiNii NAID 110007122992"
+    }
+  }
+}

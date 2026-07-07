@@ -1,0 +1,14 @@
+presentations
+アクション名,アクションタイプ,類似業績マージ優先度,ID,タイトル(日本語),タイトル(英語),講演者(日本語),講演者(英語),会議名(日本語),会議名(英語),発表年月日,開催年月日(From),開催年月日(To),招待の有無,記述言語,会議種別,主催者(日本語),主催者(英語),開催地(日本語),開催地(英語),国・地域,概要(日本語),概要(英語),国際・国内会議,国際共著,URL,URL2,主要な業績かどうか,公開の有無
+update,doc,,11803979,OpenCV2.0 ～画像処理を道具として使おう～,,浦西友樹,,第16回画像センシングシンポジウム チュートリアル講演会,,2010-06,2010-06,2010-06,TRUE,jpn,public_discourse,,,,,,,,null,null,,,FALSE,disclosed
+update,doc,,11803980,体験講演 CGにより再現されたバーチャル平城京,,浦西友樹,,奈良ユニバーサロン 超時空フォーラム 「シルクロードから藤原・平城京へ」,,2009-03,2009-03,2009-03,TRUE,jpn,public_discourse,,,奈良ユニバーサロン 超時空フォーラム 「シルクロードから藤原・平城京へ」,,,,,null,null,,,FALSE,disclosed
+update,doc,,11803978,OpenCV2.2 ～画像処理プログラミングを簡単に～,,浦西友樹,,ロボット学会セミナー 第62回シンポジウム 「ロボットに仕える画像処理技術の最前線」,,2011-05,2011-05,2011-05,TRUE,jpn,public_discourse,,,,,,,,null,null,,,FALSE,disclosed
+insert,merge,,,明日から使える！研究効率化ツール入門,,"浦西友樹, 松井勇佑, 米谷竜",,第18回データ工学と情報マネジメントに関するフォーラム(DEIM2026) チュートリアル,,2026-03,2026-03,2026-03,TRUE,jpn,public_discourse,,,,,,,,null,null,,,FALSE,disclosed
+insert,merge,,,大阪大学における教学DX,,浦西友樹,,九州大学マス・フォア・インダストリ研究所「xR技術を活用した教育手法の確立と教育DX化」,,2025-10,2025-10,2025-10,TRUE,jpn,public_discourse,,,,,,,,null,null,,,FALSE,disclosed
+insert,merge,,,CursorとOverleafで卒論を英文論文化したり申請書を書いたりするのを楽にしよう,,浦西友樹,,MVA2025サテライト特別チュートリアル「大学・企業研究所PIのためのAI活用入門」,,2025-07,2025-07,2025-07,TRUE,jpn,public_discourse,,,,,,,,null,null,,,FALSE,disclosed
+insert,merge,,,大阪大学における教育へのICT活用 - 情報社会基礎・情報科学基礎の事例紹介,,"浦西友樹, 白井詩沙香",,神戸大学保健 FD研修『教育へのICT活用』,,2024-09,2024-09,2024-09,TRUE,jpn,public_discourse,,,神戸大学保健 FD研修『教育へのICT活用』,,,,,null,null,,,FALSE,disclosed
+insert,merge,,,XRインタフェースと教育・スポーツへの応用,,浦西友樹,,日本学術会議公開シンポジウム「農業デジタルツインの現状と展望」,,2024-09,2024-09,2024-09,TRUE,jpn,public_discourse,,,,,,,,null,null,,,FALSE,disclosed
+insert,merge,,,大阪大学におけるブレンデッド教育の実例,,浦西友樹,,龍谷大学先端理工学部FD報告会,,2022-03,2022-03,2022-03,TRUE,jpn,public_discourse,,,,,,,,null,null,,,FALSE,disclosed
+insert,merge,,,"オープンソース画像処理ライブラリOpenCV：様々な環境での ""Hello World""",,浦西友樹,,第63回システム制御情報学会研究発表講演会 チュートリアル講演,,2019-05,2019-05,2019-05,TRUE,jpn,public_discourse,,,,,,,,null,null,,,FALSE,disclosed
+insert,merge,,,VR/ARが医療にもたらす未来,,浦西友樹,,第35回兵庫医療情報研究会,,2017-09,2017-09,2017-09,TRUE,jpn,public_discourse,,,第35回兵庫医療情報研究会,,,,,null,null,,,FALSE,disclosed
+insert,merge,,,OpenCV 3.0 - コンピュータビジョンを簡単化するライブラリ,,浦西友樹,,電子情報通信学会総合大会2016 企画セッション 「パターン認識・メディア理解」必須ソフトウェアライブラリ 手とり足とりガイド,,2016-03,2016-03,2016-03,TRUE,jpn,public_discourse,,,,,,,,null,null,,,FALSE,disclosed

@@ -1,0 +1,370 @@
+{
+  "generated_at": "2026-07-07T12:42:56.795840",
+  "apply": true,
+  "planned_count": 39,
+  "skipped_review_ids": [
+    {
+      "review_id": "R0091",
+      "rm_id": "40806522",
+      "title": "視線情報に基づくVR空間でのマンガ教材読書時の主観的難易度推定—Subjective Difficulty Estimation of VR-based Educational Comics Using Gaze Features—第185回 ヒューマンインタフェース学会研究会 人工現実感,エンタテインメント,メディアエクスペリエンスおよび一般",
+      "reason": "already_on_site_near_duplicate"
+    },
+    {
+      "review_id": "R0105",
+      "rm_id": "19346920",
+      "title": "私の研究開発ツール―第101回―コンピュータビジョンライブラリーOpenCV3.0",
+      "reason": "already_on_site_near_duplicate"
+    },
+    {
+      "review_id": "R0116",
+      "rm_id": "39617912",
+      "title": "外来病棟における位置情報とオーダ情報を用いた患者待ち時間の分析—Analysis of waiting time of patients using position tracking data and clinical order data in an outpatient ward",
+      "reason": "already_on_site_near_duplicate"
+    },
+    {
+      "review_id": "R0117",
+      "rm_id": "37485861",
+      "title": "スーパーサイエンスハイスクール生徒研究発表会に参加して(学会活動)",
+      "reason": "already_on_site_near_duplicate"
+    },
+    {
+      "review_id": "R0118",
+      "rm_id": "37412688",
+      "title": "DT-1-1 OpenCV 3.0 : コンピュータビジョンを簡単化するライブラリ(DT-1.「パターン認識・メディア理解」必須ソフトウエアライブラリ 手とり足とりガイド,チュートリアルセッション,ソサイエティ企画)",
+      "reason": "already_on_site_near_duplicate"
+    },
+    {
+      "review_id": "R0147",
+      "rm_id": "19346900",
+      "title": "リフォーカス画像におけるボケを用いた煙霧の空間濃度分布推定 (パターン認識・メディア理解)",
+      "reason": "already_on_site_near_duplicate"
+    },
+    {
+      "review_id": "R0156",
+      "rm_id": "19346903",
+      "title": "聴覚フィードバックを用いた歌唱時の音程操作 (マルチメディア・仮想環境基礎)",
+      "reason": "already_on_site_near_duplicate"
+    },
+    {
+      "review_id": "R0163",
+      "rm_id": "19346917",
+      "title": "OpenCV : Open Computer Vision Library (特集 画像処理ライブラリ : 画像処理をより簡単に)",
+      "reason": "already_on_site_near_duplicate"
+    }
+  ],
+  "skipped_title_duplicates": [],
+  "planned": [
+    {
+      "review_id": "R0075",
+      "rm_id": "47226653",
+      "new_id": 316,
+      "category": "International Conference Proceedings",
+      "title": "A Non-contact Translational and Rotational Force Feedback Device using Rotational Jet Propellers",
+      "publication_date": "2024-03-01T00:00:00"
+    },
+    {
+      "review_id": "R0077",
+      "rm_id": "52605474",
+      "new_id": 317,
+      "category": "Domestic Conference Proceedings",
+      "title": "ニュージーランドと日本の高等学校における情報教育の比較のための予備調査-授業見学と教員インタビューを通じて-",
+      "publication_date": "2024-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0078",
+      "rm_id": "43468934",
+      "new_id": 318,
+      "category": "International Conference Proceedings",
+      "title": "SmartVP: Viewpoint Optimization Based on Individual Preference for Watching 3D Boxing Punch Videos",
+      "publication_date": "2023-03-01T00:00:00"
+    },
+    {
+      "review_id": "R0080",
+      "rm_id": "43352268",
+      "new_id": 319,
+      "category": "International Conference Proceedings",
+      "title": "Panoptic-aware Image-to-Image Translation",
+      "publication_date": "2023-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0083",
+      "rm_id": "43468937",
+      "new_id": 320,
+      "category": "International Conference Proceedings",
+      "title": "Exploring Three-Dimensional Locomotion Techniques in Virtual Reality",
+      "publication_date": "2022-10-01T00:00:00"
+    },
+    {
+      "review_id": "R0086",
+      "rm_id": "37809284",
+      "new_id": 321,
+      "category": "Domestic Conference Proceedings",
+      "title": "ボルダリングにおける登攀上達を支援する投影情報の検討",
+      "publication_date": "2022-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0087",
+      "rm_id": "37809281",
+      "new_id": 322,
+      "category": "Domestic Conference Proceedings",
+      "title": "ホールド形状を考慮したボルダリング課題の難度推定",
+      "publication_date": "2022-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0089",
+      "rm_id": "34861869",
+      "new_id": 323,
+      "category": "International Conference Proceedings",
+      "title": "Evaluating Presence in VR with Self-Representing Auditory-Vibrotactile Input",
+      "publication_date": "2021-03-01T00:00:00"
+    },
+    {
+      "review_id": "R0096",
+      "rm_id": "47090286",
+      "new_id": 324,
+      "category": "International Conference Proceedings",
+      "title": "FrictionHaptics : Encountered-type haptic device fortangential friction emulation",
+      "publication_date": "2019-10-01T00:00:00"
+    },
+    {
+      "review_id": "R0098",
+      "rm_id": "16639245",
+      "new_id": 325,
+      "category": "Domestic Conference Proceedings",
+      "title": "オープンソース画像処理ライブラリOpenCV:様々な環境での“Hello World“",
+      "publication_date": "2019-05-01T00:00:00"
+    },
+    {
+      "review_id": "R0099",
+      "rm_id": "26333246",
+      "new_id": 326,
+      "category": "Domestic Conference Proceedings",
+      "title": "多重焦点顕微鏡画像列からの細胞の3次元形状復元 (メディアエクスペリエンス・バーチャル環境基礎)",
+      "publication_date": "2019-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0101",
+      "rm_id": "26333096",
+      "new_id": 327,
+      "category": "International Conference Proceedings",
+      "title": "3D Image Reconstruction from Multi-focus Microscopic Images.",
+      "publication_date": "2019-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0108",
+      "rm_id": "47095850",
+      "new_id": 328,
+      "category": "Misc.",
+      "title": "The 30th IEEE conference on computer vision and pattern recognition (CVPR 2017) report",
+      "publication_date": "2018-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0110",
+      "rm_id": "37282813",
+      "new_id": 329,
+      "category": "Domestic Conference Proceedings",
+      "title": "カメラ画像の大域的な輝度情報に基づく弾性体の変形推定 (医用画像)",
+      "publication_date": "2017-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0111",
+      "rm_id": "35456566",
+      "new_id": 330,
+      "category": "Domestic Conference Proceedings",
+      "title": "軟組織変形追跡のための狭帯域画像を用いた多層テンプレートマッチング手法",
+      "publication_date": "2017-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0114",
+      "rm_id": "25165760",
+      "new_id": 331,
+      "category": "International Conference Proceedings",
+      "title": "Graph databases for openEHR repositories",
+      "publication_date": "2016-08-01T00:00:00"
+    },
+    {
+      "review_id": "R0119",
+      "rm_id": "29657893",
+      "new_id": 332,
+      "category": "Journal Papers",
+      "title": "Support system for clothes selection based on color information for visually impaired persons",
+      "publication_date": "2016-02-01T00:00:00"
+    },
+    {
+      "review_id": "R0120",
+      "rm_id": "25757203",
+      "new_id": 333,
+      "category": "Domestic Conference Proceedings",
+      "title": "An attempt to connect medical instruments to hospital information system",
+      "publication_date": "2016-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0121",
+      "rm_id": "27808265",
+      "new_id": 334,
+      "category": "International Conference Proceedings",
+      "title": "A Hybrid Flying and Walking Robot For Steel Bridge Inspection",
+      "publication_date": "2016-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0123",
+      "rm_id": "25165656",
+      "new_id": 335,
+      "category": "International Conference Proceedings",
+      "title": "Exploring Graph Databases with openEHR in Antenatal Care Settings",
+      "publication_date": "2015-12-01T00:00:00"
+    },
+    {
+      "review_id": "R0124",
+      "rm_id": "25165659",
+      "new_id": 336,
+      "category": "Domestic Conference Proceedings",
+      "title": "Design of Archetype-based Clinical Concept Models: Towards Interoperable Antenatal Care EHR Systems",
+      "publication_date": "2015-11-01T00:00:00"
+    },
+    {
+      "review_id": "R0125",
+      "rm_id": "37300432",
+      "new_id": 337,
+      "category": "Domestic Conference Proceedings",
+      "title": "Spatial Density Estimation of Smoke based on Light Field Consistency",
+      "publication_date": "2015-10-01T00:00:00"
+    },
+    {
+      "review_id": "R0136",
+      "rm_id": "35397600",
+      "new_id": 338,
+      "category": "Misc.",
+      "title": "コンピュータビジョン-アルゴリズムと応用-, Richard Szeliski著, 玉木徹ほか訳, 出版社共立出版, 発行2013年3月, 全ページ836頁, 価格16,000円, ISBN978-4-320-12328-1",
+      "publication_date": "2014-10-01T00:00:00"
+    },
+    {
+      "review_id": "R0138",
+      "rm_id": "29638722",
+      "new_id": 339,
+      "category": "Domestic Conference Proceedings",
+      "title": "Simulation of air flow bronchus caused by lung deformation",
+      "publication_date": "2014-08-01T00:00:00"
+    },
+    {
+      "review_id": "R0139",
+      "rm_id": "29638432",
+      "new_id": 340,
+      "category": "Domestic Conference Proceedings",
+      "title": "Estimation of fingertip contact force direction based on change in nail color distribution",
+      "publication_date": "2014-08-01T00:00:00"
+    },
+    {
+      "review_id": "R0140",
+      "rm_id": "29638368",
+      "new_id": 341,
+      "category": "Domestic Conference Proceedings",
+      "title": "Estimation of amount of swallowed water by analysis of swallowing sounds",
+      "publication_date": "2014-08-01T00:00:00"
+    },
+    {
+      "review_id": "R0141",
+      "rm_id": "16639264",
+      "new_id": 342,
+      "category": "International Conference Proceedings",
+      "title": "Tactile Roughness Modulation of Material Surfaces Using Electrical Stimulus",
+      "publication_date": "2014-07-01T00:00:00"
+    },
+    {
+      "review_id": "R0144",
+      "rm_id": "21725757",
+      "new_id": 343,
+      "category": "International Conference Proceedings",
+      "title": "Pitching Simulation with Musculoskeletal Model of Hand",
+      "publication_date": "2014-05-01T00:00:00"
+    },
+    {
+      "review_id": "R0149",
+      "rm_id": "26275041",
+      "new_id": 344,
+      "category": "International Conference Proceedings",
+      "title": "Tactile Modulator: Roughness Modulation Using Electrotactile Augmentation",
+      "publication_date": "2014-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0153",
+      "rm_id": "19346902",
+      "new_id": 345,
+      "category": "Domestic Conference Proceedings",
+      "title": "力覚提示指向の大変形有限要素法",
+      "publication_date": "2013-09-01T00:00:00"
+    },
+    {
+      "review_id": "R0157",
+      "rm_id": "37422663",
+      "new_id": 346,
+      "category": "Domestic Conference Proceedings",
+      "title": "Presentation system of color and pattern on clothes for visually impaired person using smartphone",
+      "publication_date": "2013-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0158",
+      "rm_id": "27535029",
+      "new_id": 347,
+      "category": "International Conference Proceedings",
+      "title": "HAPTIC GLOVE USING COMPRESSION-INDUCED FRICTION TORQUE",
+      "publication_date": "2013-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0165",
+      "rm_id": "25883012",
+      "new_id": 348,
+      "category": "International Conference Proceedings",
+      "title": "CCDR-PAID: More Efficient Cache-Conscious PAID Algorithm by Data Reconstruction",
+      "publication_date": "2012-03-01T00:00:00"
+    },
+    {
+      "review_id": "R0174",
+      "rm_id": "19346908",
+      "new_id": 349,
+      "category": "Domestic Conference Proceedings",
+      "title": "データアクセスの改良による時系列パターンマイニングアルゴリズムの高速化",
+      "publication_date": "2011-10-01T00:00:00"
+    },
+    {
+      "review_id": "R0175",
+      "rm_id": "19346909",
+      "new_id": 350,
+      "category": "Domestic Conference Proceedings",
+      "title": "透明物体に内包される不透明物体のシルエット形状補正 (コンピュータビジョンとイメージメディア(CVIM) Vol.2011-CVIM-175)",
+      "publication_date": "2011-02-01T00:00:00"
+    },
+    {
+      "review_id": "R0183",
+      "rm_id": "19346915",
+      "new_id": 351,
+      "category": "Domestic Conference Proceedings",
+      "title": "指輪型マーカの三次元位置姿勢推定",
+      "publication_date": "2010-03-01T00:00:00"
+    },
+    {
+      "review_id": "R0184",
+      "rm_id": "34477179",
+      "new_id": 352,
+      "category": "Domestic Conference Proceedings",
+      "title": "フィンガジェスチャインタフェース”Ubi-WA”の試作アプリケーションによる評価",
+      "publication_date": "2010-01-01T00:00:00"
+    },
+    {
+      "review_id": "R0188",
+      "rm_id": "18561780",
+      "new_id": 353,
+      "category": "Misc.",
+      "title": "奈良ユニバーサロン ログ・イン 1000文字講座 物体の三次元形状を画像から知る(上・下)",
+      "publication_date": "2009-03-01T00:00:00"
+    },
+    {
+      "review_id": "R0189",
+      "rm_id": "27100865",
+      "new_id": 354,
+      "category": "Domestic Conference Proceedings",
+      "title": "PROPOSAL OF TRACKING LAN ANTENNA USING IMAGE SENSOR",
+      "publication_date": "2009-01-01T00:00:00"
+    }
+  ]
+}
