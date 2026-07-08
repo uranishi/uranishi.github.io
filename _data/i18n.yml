@@ -27,11 +27,16 @@ en:
   cv_sections:
     Experience: Experience
     Education: Education
+    Research Funding: Research grants
     Awards: Awards
     Supervised Student Awards: Supervised student awards
     Patents: Patents
     Teaching: Teaching
     Academic Activities: Academic Activities
+  cv_funding_roles:
+    principal_investigator: Principal Investigator
+    co_investigator: Co-Investigator
+    pi_badge: PI
 
 ja:
   lab_url: https://www.lab.ime.cmc.osaka-u.ac.jp/?lang=ja
@@ -59,8 +64,13 @@ ja:
   cv_sections:
     Experience: 経歴
     Education: 学歴
+    Research Funding: 研究費
     Awards: 受賞
     Supervised Student Awards: 指導学生の受賞
     Patents: 特許
     Teaching: 担当講義
     Academic Activities: 学会活動
+  cv_funding_roles:
+    principal_investigator: 研究代表者
+    co_investigator: 研究分担者
+    pi_badge: 研究代表者

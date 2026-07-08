@@ -159,6 +159,9 @@
         {% elsif section_title == 'Patents' %}
           {% assign entries = section_entries %}
           {% include cv/awards.liquid %}
+        {% elsif section_title == 'Research Funding' %}
+          {% assign entries = section_entries %}
+          {% include cv/research_grants.liquid locale=cv_locale %}
         {% else %}
           {% for entry in section_entries %}
             {% if entry.bullet %}

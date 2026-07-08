@@ -1,0 +1,8 @@
+{% comment %}
+  Research grant entries in a single list; PI rows show a role badge.
+{% endcomment %}
+{% assign cv_locale = include.locale | default: page.lang | default: 'en' %}
+{% assign funding_roles_i18n = site.data.i18n[cv_locale].cv_funding_roles %}
+{% assign pi_badge = funding_roles_i18n.pi_badge | default: 'PI' %}
+{% assign sorted_entries = entries | sort: 'date' | reverse %}
+{% include cv/research_grants_list.liquid entries=sorted_entries pi_badge=pi_badge %}

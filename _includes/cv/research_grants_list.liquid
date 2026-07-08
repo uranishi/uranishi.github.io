@@ -1,0 +1,61 @@
+{% comment %} Research grant list; PI entries get a compact role badge on the title. {% endcomment %}
+<ul class="card-text font-weight-light list-group list-group-flush cv-grant-list">
+  {% for entry in include.entries %}
+    <li class="list-group-item">
+      <div class="row">
+        {% if entry.date %}
+          <div class="col-xs-2 col-sm-2 col-md-2 text-center">
+            <table class="table-cv">
+              <tbody>
+                <tr>
+                  <td>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{- entry.date | split: '-' | slice: 0, 1 | join: '' -}}
+                    </span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4 cv-grant-title">
+              {% if entry.role == 'principal_investigator' %}
+                <span class="badge cv-grant-role-badge" title="{{ include.pi_badge }}">{{ include.pi_badge }}</span>
+              {% endif %}
+              {% if entry.url %}
+                <a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entry.title }}</a>
+              {% else %}
+                {{ entry.title }}
+              {% endif %}
+            </h6>
+            {% if entry.awarder %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+            {% endif %}
+            {% if entry.summary %}
+              <p class="ml-1 ml-md-4">{{ entry.summary }}</p>
+            {% endif %}
+          </div>
+        {% else %}
+          <div class="col-xs-12 col-sm-12 col-md-12">
+            <h6 class="title font-weight-bold ml-1 ml-md-4 cv-grant-title">
+              {% if entry.role == 'principal_investigator' %}
+                <span class="badge cv-grant-role-badge" title="{{ include.pi_badge }}">{{ include.pi_badge }}</span>
+              {% endif %}
+              {% if entry.url %}
+                <a href="{{ entry.url }}" target="_blank" rel="noopener">{{ entry.title }}</a>
+              {% else %}
+                {{ entry.title }}
+              {% endif %}
+            </h6>
+            {% if entry.awarder %}
+              <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ entry.awarder }}</h6>
+            {% endif %}
+            {% if entry.summary %}
+              <p class="ml-1 ml-md-4">{{ entry.summary }}</p>
+            {% endif %}
+          </div>
+        {% endif %}
+      </div>
+    </li>
+  {% endfor %}
+</ul>
