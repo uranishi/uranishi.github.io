@@ -11,121 +11,10 @@
     "review_total": 192
   },
   "auto_ok_site_ids": [
-    8,
-    12,
-    18,
-    187,
-    188,
-    189,
-    190,
-    88,
-    89,
-    90,
-    193,
-    92,
-    29,
-    194,
-    196,
-    195,
-    202,
-    31,
-    204,
-    205,
-    144,
-    32,
-    208,
-    34,
-    36,
-    37,
-    40,
-    39,
-    41,
-    42,
-    43,
-    44,
-    45,
-    46,
-    47,
-    221,
-    220,
-    225,
-    229,
-    228,
-    226,
-    231,
-    230,
-    232,
-    233,
-    237,
-    236,
-    235,
-    234,
-    238,
-    240,
-    242,
-    241,
-    239,
-    244,
-    243,
-    245,
-    246,
-    247,
-    112,
-    155,
-    154,
-    249,
-    248,
-    250,
-    251,
-    253,
-    252,
-    115,
-    117,
-    116,
-    254,
-    255,
-    257,
-    256,
-    258,
-    259,
-    119,
-    261,
-    262,
-    263,
-    265,
-    264,
-    266,
-    137,
-    272,
-    271,
-    270,
-    268,
-    267,
-    295,
-    123,
-    127,
-    126,
-    125,
-    276,
-    275,
-    274,
-    273,
-    129,
-    128,
-    277,
-    139,
-    138,
-    278,
-    130,
-    280,
-    282,
-    191,
-    215,
-    148,
-    218,
-    219,
-    57,
-    58
+    8, 12, 18, 187, 188, 189, 190, 88, 89, 90, 193, 92, 29, 194, 196, 195, 202, 31, 204, 205, 144, 32, 208, 34, 36, 37, 40, 39, 41, 42, 43, 44, 45,
+    46, 47, 221, 220, 225, 229, 228, 226, 231, 230, 232, 233, 237, 236, 235, 234, 238, 240, 242, 241, 239, 244, 243, 245, 246, 247, 112, 155, 154,
+    249, 248, 250, 251, 253, 252, 115, 117, 116, 254, 255, 257, 256, 258, 259, 119, 261, 262, 263, 265, 264, 266, 137, 272, 271, 270, 268, 267, 295,
+    123, 127, 126, 125, 276, 275, 274, 273, 129, 128, 277, 139, 138, 278, 130, 280, 282, 191, 215, 148, 218, 219, 57, 58
   ],
   "trivial_resolved": [
     {
@@ -225,9 +114,7 @@
       "rm_id": "52654182",
       "rm_type": "published_papers",
       "title": "Exploring Visual Augmentation for Soccer Kicking Posture Instruction",
-      "diffs": [
-        "date: RM `2025` vs site `2025-10`"
-      ]
+      "diffs": ["date: RM `2025` vs site `2025-10`"]
     },
     {
       "site_id": 69,
@@ -255,38 +142,28 @@
       "rm_id": "48512897",
       "rm_type": "published_papers",
       "title": "Cloud Computing Challenges and Needs in Higher Education Institutions in Post-COVID-19 Times: A Case of a Japanese Survey",
-      "diffs": [
-        "date: RM `2024` vs site `2024-11`",
-        "publication_info: RM `IEEE Access` vs site `IEEE Access (Early Access)`"
-      ]
+      "diffs": ["date: RM `2024` vs site `2024-11`", "publication_info: RM `IEEE Access` vs site `IEEE Access (Early Access)`"]
     },
     {
       "site_id": 13,
       "rm_id": "48468045",
       "rm_type": "published_papers",
       "title": "User-Centric Locomotion Techniques for Virtual Reality Games: A Survey of User Needs and Issues",
-      "diffs": [
-        "date: RM `2024` vs site `2025-06`"
-      ]
+      "diffs": ["date: RM `2024` vs site `2025-06`"]
     },
     {
       "site_id": 14,
       "rm_id": "48468035",
       "rm_type": "published_papers",
       "title": "ILBiT: Imitation Learning for Robot Using Position and Torque Information based on Bilateral Control with Transformer",
-      "diffs": [
-        "date: RM `2024` vs site `2025-02`"
-      ]
+      "diffs": ["date: RM `2024` vs site `2025-02`"]
     },
     {
       "site_id": 16,
       "rm_id": "47462109",
       "rm_type": "published_papers",
       "title": "Identifying Disaster Regions in Images Through Attention Shifting with a Retarget Network",
-      "diffs": [
-        "date: RM `2024` vs site `2024-08`",
-        "publication_info: RM `IEEE Access` vs site `IEEE Access (Early Access)`"
-      ]
+      "diffs": ["date: RM `2024` vs site `2024-08`", "publication_info: RM `IEEE Access` vs site `IEEE Access (Early Access)`"]
     },
     {
       "site_id": 71,
@@ -303,9 +180,7 @@
       "rm_id": "42193347",
       "rm_type": "published_papers",
       "title": "Difficulty Estimation of Educational Comics Using Gaze Features",
-      "diffs": [
-        "publication_info: RM `IEICE Transactions on Information and Systems` vs site `The IEICE Transactions on Information and Systems`"
-      ]
+      "diffs": ["publication_info: RM `IEICE Transactions on Information and Systems` vs site `The IEICE Transactions on Information and Systems`"]
     },
     {
       "site_id": 19,
@@ -379,9 +254,7 @@
       "rm_id": "34790033",
       "rm_type": "published_papers",
       "title": "3D Pointing Gestures as Target Selection Tools: Guiding Monocular UAVs during Window Selection in an Outdoor Environment",
-      "diffs": [
-        "date: RM `2021-12` vs site `2021-04`"
-      ]
+      "diffs": ["date: RM `2021-12` vs site `2021-04`"]
     },
     {
       "site_id": 78,
@@ -459,10 +332,7 @@
       "rm_id": "34384334",
       "rm_type": "published_papers",
       "title": "大阪大学におけるメディア授業実施に関する全学的な支援体制の整備と新入生支援の取り組み",
-      "diffs": [
-        "category: RM `RM:published_papers` vs site `Journal Papers`",
-        "date: RM `2020` vs site `2020-10`"
-      ]
+      "diffs": ["category: RM `RM:published_papers` vs site `Journal Papers`", "date: RM `2020` vs site `2020-10`"]
     },
     {
       "site_id": 25,
@@ -491,9 +361,7 @@
       "rm_id": "27921817",
       "rm_type": "published_papers",
       "title": "Real-time Guidance and Visualization of Optimized Packing Solutions",
-      "diffs": [
-        "date: RM `2020` vs site `2020-03`"
-      ]
+      "diffs": ["date: RM `2020` vs site `2020-03`"]
     },
     {
       "site_id": 85,
@@ -528,10 +396,7 @@
       "rm_id": "27921825",
       "rm_type": "published_papers",
       "title": "Evaluation of Pointing Interfaces with an AR Agent for Multi-section Information Guidance",
-      "diffs": [
-        "date: RM `2019` vs site `2019-03`",
-        "publication_info: RM `IEEE VR` vs site `Proceedings of the IEEE Virtual Reality 2019 (VR2019)`"
-      ]
+      "diffs": ["date: RM `2019` vs site `2019-03`", "publication_info: RM `IEEE VR` vs site `Proceedings of the IEEE Virtual Reality 2019 (VR2019)`"]
     },
     {
       "site_id": 87,
@@ -557,19 +422,14 @@
       "rm_id": "21725786",
       "rm_type": "published_papers",
       "title": "シミュレーションと自己符号化器を用いた光源変化に頑健なカメラ位置姿勢推定",
-      "diffs": [
-        "date: RM `2017-09` vs site `2017-08`"
-      ]
+      "diffs": ["date: RM `2017-09` vs site `2017-08`"]
     },
     {
       "site_id": 199,
       "rm_id": "21725785",
       "rm_type": "published_papers",
       "title": "深層学習による集光模様の実時間生成",
-      "diffs": [
-        "date: RM `2017-08` vs site `2017-05`",
-        "publication_info: RM `情報処理学会研究報告(Web)` vs site `情報処理学会研究報告`"
-      ]
+      "diffs": ["date: RM `2017-08` vs site `2017-05`", "publication_info: RM `情報処理学会研究報告(Web)` vs site `情報処理学会研究報告`"]
     },
     {
       "site_id": 93,
@@ -585,9 +445,7 @@
       "rm_id": "21725782",
       "rm_type": "published_papers",
       "title": "Image Matching between Cameras for Vision Augmentation HMDs",
-      "diffs": [
-        "category: RM `RM:published_papers` vs site `International Conference Proceedings`"
-      ]
+      "diffs": ["category: RM `RM:published_papers` vs site `International Conference Proceedings`"]
     },
     {
       "site_id": 198,
@@ -603,18 +461,14 @@
       "rm_id": "21725779",
       "rm_type": "published_papers",
       "title": "大域照明の内挿による光源操作可能なARシステム",
-      "diffs": [
-        "publication_info: RM `情報処理学会研究報告, Vol. 2017` vs site `情報処理学会研究報告`"
-      ]
+      "diffs": ["publication_info: RM `情報処理学会研究報告, Vol. 2017` vs site `情報処理学会研究報告`"]
     },
     {
       "site_id": 200,
       "rm_id": "21725778",
       "rm_type": "published_papers",
       "title": "光源変化シミュレーションと深層学習による特徴量変換を用いたカメラ位置姿勢推定",
-      "diffs": [
-        "publication_info: RM `情報処理学会研究報告, Vol. 2017` vs site `情報処理学会研究報告`"
-      ]
+      "diffs": ["publication_info: RM `情報処理学会研究報告, Vol. 2017` vs site `情報処理学会研究報告`"]
     },
     {
       "site_id": 197,
@@ -640,9 +494,7 @@
       "rm_id": "5370163",
       "rm_type": "published_papers",
       "title": "失敗を可視化する採血トレーナ",
-      "diffs": [
-        "date: RM `2017` vs site `2017-06`"
-      ]
+      "diffs": ["date: RM `2017` vs site `2017-06`"]
     },
     {
       "site_id": 95,
@@ -744,9 +596,7 @@
       "rm_id": "5419336",
       "rm_type": "published_papers",
       "title": "Haptic Interface with a Stylus for a Mobile Touch Panel",
-      "diffs": [
-        "date: RM `2015` vs site `2015-10`"
-      ]
+      "diffs": ["date: RM `2015` vs site `2015-10`"]
     },
     {
       "site_id": 103,
@@ -794,9 +644,7 @@
       "rm_id": "13000992",
       "rm_type": "published_papers",
       "title": "手の筋骨格モデルを導入した投球シミュレーション",
-      "diffs": [
-        "date: RM `2014` vs site `2014-02`"
-      ]
+      "diffs": ["date: RM `2014` vs site `2014-02`"]
     },
     {
       "site_id": 150,
@@ -858,10 +706,7 @@
       "rm_id": "37841135",
       "rm_type": "misc",
       "title": "顔表情および頭部動作に基づくeラーニング時の覚醒度推定",
-      "diffs": [
-        "category: RM `Misc.` vs site `Domestic Conference Proceedings`",
-        "date: RM `2020-02` vs site `2020-03`"
-      ]
+      "diffs": ["category: RM `Misc.` vs site `Domestic Conference Proceedings`", "date: RM `2020-02` vs site `2020-03`"]
     },
     {
       "site_id": 291,
@@ -918,9 +763,7 @@
       "rm_id": "25165738",
       "rm_type": "misc",
       "title": "採血トレーニングのための穿刺位置に対する注射針の角度および深度推定",
-      "diffs": [
-        "publication_info: RM `日本VR医学会学術大会抄録集` vs site `第15回日本VR医学会学術大会 抄録集`"
-      ]
+      "diffs": ["publication_info: RM `日本VR医学会学術大会抄録集` vs site `第15回日本VR医学会学術大会 抄録集`"]
     },
     {
       "site_id": 213,
@@ -938,9 +781,7 @@
       "rm_id": "25165651",
       "rm_type": "misc",
       "title": "注射トレーニングのための腕型シミュレータへの解剖学的構造の投影",
-      "diffs": [
-        "publication_info: RM `第59回システム制御情報学会研究発表講演会講演論文集` vs site `第59回システム制御情報学会研究発表講演会 論文集`"
-      ]
+      "diffs": ["publication_info: RM `第59回システム制御情報学会研究発表講演会講演論文集` vs site `第59回システム制御情報学会研究発表講演会 論文集`"]
     },
     {
       "site_id": 216,
@@ -1021,18 +862,14 @@
       "rm_id": "18561711",
       "rm_type": "misc",
       "title": "Connected Component Labeling on GPU based on Raster Segment Pair Approach",
-      "diffs": [
-        "publication_info: RM `第16回画像の認識・理解シンポジウム 論文集` vs site `第16回画像の認識・理解シンポジウム 論文集 [Poster]`"
-      ]
+      "diffs": ["publication_info: RM `第16回画像の認識・理解シンポジウム 論文集` vs site `第16回画像の認識・理解シンポジウム 論文集 [Poster]`"]
     },
     {
       "site_id": 153,
       "rm_id": "18561712",
       "rm_type": "misc",
       "title": "視体積とリフォーカス画像群を併用した煙霧の空間濃度分布推定",
-      "diffs": [
-        "publication_info: RM `第16回画像の認識・理解シンポジウム 論文集` vs site `第16回画像の認識・理解シンポジウム 論文集 [Poster]`"
-      ]
+      "diffs": ["publication_info: RM `第16回画像の認識・理解シンポジウム 論文集` vs site `第16回画像の認識・理解シンポジウム 論文集 [Poster]`"]
     },
     {
       "site_id": 136,
@@ -1118,9 +955,7 @@
       "rm_id": "18561779",
       "rm_type": "misc",
       "title": "OpenCV: Open Computer Vision Library",
-      "diffs": [
-        "date: RM `2012-07` vs site `2012-03`"
-      ]
+      "diffs": ["date: RM `2012-07` vs site `2012-03`"]
     },
     {
       "site_id": 111,
@@ -1137,9 +972,7 @@
       "rm_id": "18561721",
       "rm_type": "misc",
       "title": "可視光画像と距離画像の併用による共連れ対応入退室情報記録システム",
-      "diffs": [
-        "publication_info: RM `画像の認識・理解シンポジウム 2010 論文集` vs site `画像の認識・理解シンポジウム 論文集`"
-      ]
+      "diffs": ["publication_info: RM `画像の認識・理解シンポジウム 2010 論文集` vs site `画像の認識・理解シンポジウム 論文集`"]
     },
     {
       "site_id": 118,
@@ -1197,18 +1030,14 @@
       "rm_id": "18561725",
       "rm_type": "misc",
       "title": "円筒鏡を用いた全周形状計測システムの実装",
-      "diffs": [
-        "publication_info: RM `画像の認識・理解シンポジウム2008 論文集` vs site `画像の認識・理解シンポジウム2008 論文集, 長野  [Poster]`"
-      ]
+      "diffs": ["publication_info: RM `画像の認識・理解シンポジウム2008 論文集` vs site `画像の認識・理解シンポジウム2008 論文集, 長野  [Poster]`"]
     },
     {
       "site_id": 157,
       "rm_id": "18561726",
       "rm_type": "misc",
       "title": "円筒鏡を用いた単眼全周形状計測システム",
-      "diffs": [
-        "publication_info: RM `画像の認識・理解シンポジウム2006 論文集` vs site `画像の認識・理解シンポジウム2006 論文集, 宮城  [Poster]`"
-      ]
+      "diffs": ["publication_info: RM `画像の認識・理解シンポジウム2006 論文集` vs site `画像の認識・理解シンポジウム2006 論文集, 宮城  [Poster]`"]
     },
     {
       "site_id": 279,
@@ -1234,9 +1063,7 @@
       "rm_id": "18561727",
       "rm_type": "misc",
       "title": "円筒鏡を用いた3次元形状計測システム",
-      "diffs": [
-        "publication_info: RM `画像の認識・理解シンポジウム2005 論文集` vs site `画像の認識・理解シンポジウム2005 論文集, 兵庫  [Poster]`"
-      ]
+      "diffs": ["publication_info: RM `画像の認識・理解シンポジウム2005 論文集` vs site `画像の認識・理解シンポジウム2005 論文集, 兵庫  [Poster]`"]
     },
     {
       "site_id": 133,
@@ -1295,36 +1122,28 @@
       "rm_id": "10430996",
       "rm_type": "books_etc",
       "title": "OpenCV 2 プログラミングブック",
-      "diffs": [
-        "authors: RM `OpenCV, プログラミングブック制作チーム` vs site `OpenCV 2 プログラミングブック制作チーム`"
-      ]
+      "diffs": ["authors: RM `OpenCV, プログラミングブック制作チーム` vs site `OpenCV 2 プログラミングブック制作チーム`"]
     },
     {
       "site_id": 6,
       "rm_id": "10447369",
       "rm_type": "books_etc",
       "title": "OpenCV プログラミングブック 第2版",
-      "diffs": [
-        "authors: RM `OpenCVプログラミングブック制作チーム` vs site `奈良先端科学技術大学院大学 OpenCVプログラミングブック制作チーム`"
-      ]
+      "diffs": ["authors: RM `OpenCVプログラミングブック制作チーム` vs site `奈良先端科学技術大学院大学 OpenCVプログラミングブック制作チーム`"]
     },
     {
       "site_id": 7,
       "rm_id": "10430998",
       "rm_type": "books_etc",
       "title": "OpenCV プログラミングブック",
-      "diffs": [
-        "authors: RM `OpenCVプログラミングブック制作チーム` vs site `奈良先端科学技術大学院大学 OpenCVプログラミングブック制作チーム`"
-      ]
+      "diffs": ["authors: RM `OpenCVプログラミングブック制作チーム` vs site `奈良先端科学技術大学院大学 OpenCVプログラミングブック制作チーム`"]
     },
     {
       "site_id": 73,
       "rm_id": "40863384",
       "rm_type": "presentations",
       "title": "Evaluation of User Interfaces for Three-Dimensional Locomotion in Virtual Reality",
-      "diffs": [
-        "publication_info: RM `Symposium on Spatial User Interaction` vs site `ACM Spatial User Interaction 2022 (SUI2022)`"
-      ]
+      "diffs": ["publication_info: RM `Symposium on Spatial User Interaction` vs site `ACM Spatial User Interaction 2022 (SUI2022)`"]
     },
     {
       "site_id": 142,

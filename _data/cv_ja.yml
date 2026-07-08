@@ -140,112 +140,112 @@ cv:
         end_date: 2006-09
 
     Research Funding:
-      - title: 構造色の観測に基づく光源方向および分光分布推定
+      - name: 構造色の観測に基づく光源方向および分光分布推定
         date: 2021
-        awarder: 科学研究費補助金 基盤研究 (C) (一般)
+        location: 科学研究費補助金 基盤研究 (C) (一般)
         summary: "4,160千円, 令和3–5年度, 課題番号 21K11962"
         role: principal_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-21K11962/
 
-      - title: 計算機視覚のための構造色物体の形状と光学現象モデルの計測
+      - name: 計算機視覚のための構造色物体の形状と光学現象モデルの計測
         date: 2016
-        awarder: 科学技術振興機構 戦略的創造研究推進事業 (ACT-I) 研究領域「情報と未来」
+        location: 科学技術振興機構 戦略的創造研究推進事業 (ACT-I) 研究領域「情報と未来」
         summary: "3,000千円 (直接経費), 平成28–29年度"
         role: principal_investigator
         url: https://www.jst.go.jp/kisoken/act-i/project/111C001/111C001_2016.html
 
-      - title: 構造色から光源方向と分光分布を実時間推定する二次元ARマーカ
+      - name: 構造色から光源方向と分光分布を実時間推定する二次元ARマーカ
         date: 2014
-        awarder: 科学研究費補助金 挑戦的萌芽研究
+        location: 科学研究費補助金 挑戦的萌芽研究
         summary: "3,640千円, 平成26–28年度"
         role: principal_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26540105/
 
-      - title: タブレット上の力覚提示を伴うバーチャル物体との相互作用提示システム
+      - name: タブレット上の力覚提示を伴うバーチャル物体との相互作用提示システム
         date: 2013
-        awarder: 科学技術振興機構 研究成果最適展開支援プログラム (A-STEP) 平成25年度第1回【FS】探索タイプ
+        location: 科学技術振興機構 研究成果最適展開支援プログラム (A-STEP) 平成25年度第1回【FS】探索タイプ
         summary: "1,700千円, 平成25年度"
         role: principal_investigator
 
-      - title: 「個」と「群衆」へ最適なマルチメディアコンテンツを同時提示する大型ディスプレイ
+      - name: 「個」と「群衆」へ最適なマルチメディアコンテンツを同時提示する大型ディスプレイ
         date: 2012
-        awarder: 科学研究費補助金 若手研究 (B)
+        location: 科学研究費補助金 若手研究 (B)
         summary: "4,420千円, 平成24–25年度"
         role: principal_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24700092/
 
-      - title: 実環境と仮想物体の相互反射を考慮した拡張現実感の高階調プレゼンテーション
+      - name: 実環境と仮想物体の相互反射を考慮した拡張現実感の高階調プレゼンテーション
         date: 2010
-        awarder: 科学研究費補助金 若手研究 (B)
+        location: 科学研究費補助金 若手研究 (B)
         summary: "4,030千円, 平成22–23年度"
         role: principal_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22700125/
 
-      - title: 運動物体の全周型形状計測手法の開発
+      - name: 運動物体の全周型形状計測手法の開発
         date: 2007
-        awarder: 科学研究費補助金 特別研究員奨励費
+        location: 科学研究費補助金 特別研究員奨励費
         summary: "1,800千円, 平成19–20年度"
         role: principal_investigator
 
-      - title: 3D画像認識AIによる革新的癌診断支援システムの構築
+      - name: 3D画像認識AIによる革新的癌診断支援システムの構築
         date: 2017
-        awarder: JST CREST「イノベーション創発に資する人工知能基盤技術の創出と統合化」大阪大学グループ
+        location: JST CREST「イノベーション創発に資する人工知能基盤技術の創出と統合化」大阪大学グループ
         summary: "平成29–令和元年度"
         role: co_investigator
         url: https://projectdb.jst.go.jp/grant/JST-PROJECT-17942090/
 
-      - title: 持続的な4次元AR環境の構築
+      - name: 持続的な4次元AR環境の構築
         date: 2016
-        awarder: 科学研究費補助金 基盤研究 (B)
+        location: 科学研究費補助金 基盤研究 (B)
         summary: "平成28–30年度"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16H02858/
 
-      - title: バーチャルリアリティを用いた糖尿病足病変ハイリスク要因アセスメント教育モデル開発
+      - name: バーチャルリアリティを用いた糖尿病足病変ハイリスク要因アセスメント教育モデル開発
         date: 2016
-        awarder: 科学研究費補助金 基盤研究 (B)
+        location: 科学研究費補助金 基盤研究 (B)
         summary: "平成28–30年度"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16H05564/
 
-      - title: 電子式鏡像法を用いた複空間の構築
+      - name: 電子式鏡像法を用いた複空間の構築
         date: 2016
-        awarder: 科学研究費補助金 基盤研究 (C)
+        location: 科学研究費補助金 基盤研究 (C)
         summary: "平成28–29年度"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16K00272/
 
-      - title: 臓器変形・力学特性のスパースモデリング及び術中推定に関する研究
+      - name: 臓器変形・力学特性のスパースモデリング及び術中推定に関する研究
         date: 2015
-        awarder: 科学研究費補助金 基盤研究 (B)
+        location: 科学研究費補助金 基盤研究 (B)
         summary: "平成27–30年度"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-15H03032/
 
-      - title: 全レセプトデータの眼科領域での活用基盤整備と糖尿病眼合併症研究への活用
+      - name: 全レセプトデータの眼科領域での活用基盤整備と糖尿病眼合併症研究への活用
         date: 2015
-        awarder: 科学研究費補助金 基盤研究 (C)
+        location: 科学研究費補助金 基盤研究 (C)
         summary: "平成27–29年度"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-15K10839/
 
-      - title: インタラクティブ検索を利用した診療情報からの仮設生成支援環境の構築
+      - name: インタラクティブ検索を利用した診療情報からの仮設生成支援環境の構築
         date: 2015
-        awarder: 科学研究費補助金 基盤研究 (C)
+        location: 科学研究費補助金 基盤研究 (C)
         summary: "平成27–29年度"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-15K00466/
 
-      - title: Robust Localization and Mapping in Low-Visibility Environments using Thermal Imaging
+      - name: Robust Localization and Mapping in Low-Visibility Environments using Thermal Imaging
         date: 2025
-        awarder: 科学研究費補助金 基盤研究 (B)
+        location: 科学研究費補助金 基盤研究 (B)
         summary: "18,850千円 (直接経費14,500千円), 令和7–9年度, 課題番号 25K01205"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25K01205/
 
-      - title: Aerial-Terrestrial-Aquatic Robots for Search and Rescue in an ATA Extreme Environment
+      - name: Aerial-Terrestrial-Aquatic Robots for Search and Rescue in an ATA Extreme Environment
         date: 2020
-        awarder: 科学研究費補助金 国際共同研究加速基金（国際共同研究強化(B)）
+        location: 科学研究費補助金 国際共同研究加速基金（国際共同研究強化(B)）
         summary: "18,720千円 (直接経費14,400千円), 令和2–6年度, 課題番号 20KK0086"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20KK0086/

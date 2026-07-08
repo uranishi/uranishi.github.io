@@ -136,112 +136,112 @@ cv:
         end_date: 2006-09
 
     Research Funding:
-      - title: 構造色の観測に基づく光源方向および分光分布推定
+      - name: 構造色の観測に基づく光源方向および分光分布推定
         date: 2021
-        awarder: JSPS KAKENHI Grant-in-Aid for Scientific Research (C) (General)
+        location: JSPS KAKENHI Grant-in-Aid for Scientific Research (C) (General)
         summary: "4.16M JPY, FY2021–2023, Grant No. 21K11962"
         role: principal_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-21K11962/
 
-      - title: 計算機視覚のための構造色物体の形状と光学現象モデルの計測
+      - name: 計算機視覚のための構造色物体の形状と光学現象モデルの計測
         date: 2016
-        awarder: JST Strategic Basic Research Programs (ACT-I), Research Area "Information and Future"
+        location: JST Strategic Basic Research Programs (ACT-I), Research Area "Information and Future"
         summary: "3.0M JPY (direct costs), FY2016–2017"
         role: principal_investigator
         url: https://www.jst.go.jp/kisoken/act-i/project/111C001/111C001_2016.html
 
-      - title: 構造色から光源方向と分光分布を実時間推定する二次元ARマーカ
+      - name: 構造色から光源方向と分光分布を実時間推定する二次元ARマーカ
         date: 2014
-        awarder: JSPS KAKENHI Challenging Exploratory Research
+        location: JSPS KAKENHI Challenging Exploratory Research
         summary: "3.64M JPY, FY2014–2016"
         role: principal_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-26540105/
 
-      - title: タブレット上の力覚提示を伴うバーチャル物体との相互作用提示システム
+      - name: タブレット上の力覚提示を伴うバーチャル物体との相互作用提示システム
         date: 2013
-        awarder: JST Adaptable and Seamless Technology Transfer Program (A-STEP), FY2013 Round 1 [FS] Exploratory Type
+        location: JST Adaptable and Seamless Technology Transfer Program (A-STEP), FY2013 Round 1 [FS] Exploratory Type
         summary: "1.7M JPY, FY2013"
         role: principal_investigator
 
-      - title: 「個」と「群衆」へ最適なマルチメディアコンテンツを同時提示する大型ディスプレイ
+      - name: 「個」と「群衆」へ最適なマルチメディアコンテンツを同時提示する大型ディスプレイ
         date: 2012
-        awarder: JSPS KAKENHI Young Scientists (B)
+        location: JSPS KAKENHI Young Scientists (B)
         summary: "4.42M JPY, FY2012–2013"
         role: principal_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-24700092/
 
-      - title: 実環境と仮想物体の相互反射を考慮した拡張現実感の高階調プレゼンテーション
+      - name: 実環境と仮想物体の相互反射を考慮した拡張現実感の高階調プレゼンテーション
         date: 2010
-        awarder: JSPS KAKENHI Young Scientists (B)
+        location: JSPS KAKENHI Young Scientists (B)
         summary: "4.03M JPY, FY2010–2011"
         role: principal_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22700125/
 
-      - title: 運動物体の全周型形状計測手法の開発
+      - name: 運動物体の全周型形状計測手法の開発
         date: 2007
-        awarder: JSPS KAKENHI Grant for JSPS Fellows (Encouragement of Research)
+        location: JSPS KAKENHI Grant for JSPS Fellows (Encouragement of Research)
         summary: "1.8M JPY, FY2007–2008"
         role: principal_investigator
 
-      - title: 3D画像認識AIによる革新的癌診断支援システムの構築
+      - name: 3D画像認識AIによる革新的癌診断支援システムの構築
         date: 2017
-        awarder: JST CREST "Creation and Integration of AI Foundation Technologies for Innovation" (Osaka University group)
+        location: JST CREST "Creation and Integration of AI Foundation Technologies for Innovation" (Osaka University group)
         summary: "FY2017–2019"
         role: co_investigator
         url: https://projectdb.jst.go.jp/grant/JST-PROJECT-17942090/
 
-      - title: 持続的な4次元AR環境の構築
+      - name: 持続的な4次元AR環境の構築
         date: 2016
-        awarder: JSPS KAKENHI Grant-in-Aid for Scientific Research (B)
+        location: JSPS KAKENHI Grant-in-Aid for Scientific Research (B)
         summary: "FY2016–2018"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16H02858/
 
-      - title: バーチャルリアリティを用いた糖尿病足病変ハイリスク要因アセスメント教育モデル開発
+      - name: バーチャルリアリティを用いた糖尿病足病変ハイリスク要因アセスメント教育モデル開発
         date: 2016
-        awarder: JSPS KAKENHI Grant-in-Aid for Scientific Research (B)
+        location: JSPS KAKENHI Grant-in-Aid for Scientific Research (B)
         summary: "FY2016–2018"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16H05564/
 
-      - title: 電子式鏡像法を用いた複空間の構築
+      - name: 電子式鏡像法を用いた複空間の構築
         date: 2016
-        awarder: JSPS KAKENHI Grant-in-Aid for Scientific Research (C)
+        location: JSPS KAKENHI Grant-in-Aid for Scientific Research (C)
         summary: "FY2016–2017"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16K00272/
 
-      - title: 臓器変形・力学特性のスパースモデリング及び術中推定に関する研究
+      - name: 臓器変形・力学特性のスパースモデリング及び術中推定に関する研究
         date: 2015
-        awarder: JSPS KAKENHI Grant-in-Aid for Scientific Research (B)
+        location: JSPS KAKENHI Grant-in-Aid for Scientific Research (B)
         summary: "FY2015–2018"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-15H03032/
 
-      - title: 全レセプトデータの眼科領域での活用基盤整備と糖尿病眼合併症研究への活用
+      - name: 全レセプトデータの眼科領域での活用基盤整備と糖尿病眼合併症研究への活用
         date: 2015
-        awarder: JSPS KAKENHI Grant-in-Aid for Scientific Research (C)
+        location: JSPS KAKENHI Grant-in-Aid for Scientific Research (C)
         summary: "FY2015–2017"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-15K10839/
 
-      - title: インタラクティブ検索を利用した診療情報からの仮設生成支援環境の構築
+      - name: インタラクティブ検索を利用した診療情報からの仮設生成支援環境の構築
         date: 2015
-        awarder: JSPS KAKENHI Grant-in-Aid for Scientific Research (C)
+        location: JSPS KAKENHI Grant-in-Aid for Scientific Research (C)
         summary: "FY2015–2017"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-15K00466/
 
-      - title: Robust Localization and Mapping in Low-Visibility Environments using Thermal Imaging
+      - name: Robust Localization and Mapping in Low-Visibility Environments using Thermal Imaging
         date: 2025
-        awarder: JSPS KAKENHI Grant-in-Aid for Scientific Research (B)
+        location: JSPS KAKENHI Grant-in-Aid for Scientific Research (B)
         summary: "18.85M JPY (direct costs 14.5M JPY), FY2025–2027, Grant No. 25K01205"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-25K01205/
 
-      - title: Aerial-Terrestrial-Aquatic Robots for Search and Rescue in an ATA Extreme Environment
+      - name: Aerial-Terrestrial-Aquatic Robots for Search and Rescue in an ATA Extreme Environment
         date: 2020
-        awarder: JSPS KAKENHI Fund for the Promotion of International Joint Research (Fostering Joint International Research (B))
+        location: JSPS KAKENHI Fund for the Promotion of International Joint Research (Fostering Joint International Research (B))
         summary: "18.72M JPY (direct costs 14.4M JPY), FY2020–2024, Grant No. 20KK0086"
         role: co_investigator
         url: https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20KK0086/
