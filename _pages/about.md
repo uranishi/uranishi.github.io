@@ -53,4 +53,4 @@ He received his Ph.D. in Engineering from the [Nara Institute of Science and Tec
 
 {% include about_highlights.liquid %}
 
-See [Laboratory web site](https://www.lab.ime.cmc.osaka-u.ac.jp/?lang=en) for research themes and [Publications](/publications/) for the complete publication list.
+See [Laboratory web site](https://imelab.cme.d3c.osaka-u.ac.jp/en/) for research themes and [Publications](/publications/) for the complete publication list.

@@ -55,4 +55,4 @@ latest_posts:
 
 {% include about_highlights.liquid %}
 
-研究テーマについては[研究室Webサイト](https://www.lab.ime.cmc.osaka-u.ac.jp/?lang=ja)を，論文一覧については[publications](/ja/publications/)をご覧ください．
+研究テーマについては[研究室Webサイト](https://imelab.cme.d3c.osaka-u.ac.jp/)を，論文一覧については[publications](/ja/publications/)をご覧ください．

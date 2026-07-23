@@ -1,5 +1,5 @@
 en:
-  lab_url: https://www.lab.ime.cmc.osaka-u.ac.jp/?lang=en
+  lab_url: https://imelab.cme.d3c.osaka-u.ac.jp/en/
   nav:
     about: about
     publications: publications
@@ -39,7 +39,7 @@ en:
     pi_badge: PI
 
 ja:
-  lab_url: https://www.lab.ime.cmc.osaka-u.ac.jp/?lang=ja
+  lab_url: https://imelab.cme.d3c.osaka-u.ac.jp/
   nav:
     about: about
     publications: publications
