@@ -70,7 +70,7 @@ ninja.data = [{
         title: 'Work',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.lab.ime.cmc.osaka-u.ac.jp/?lang=en", "_blank");
+          window.open("https://imelab.cme.d3c.osaka-u.ac.jp/en/", "_blank");
         },
       },{
         id: 'social-rss',
