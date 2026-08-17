@@ -1,5 +1,28 @@
 [
   {
+    "id": 354,
+    "selected": true,
+    "category_id": 2,
+    "category": "Journal Papers",
+    "title": "Breathing-Cycle Haptic Cues Reduce Perceived Mental Workload and Enhance Engagement in Remote Collaborative Learning",
+    "authors": "Gayeon Lee, Shizuka Shirai, Yuki Ban, Takuto Nakamura, Naoya Chiba and Yuki Uranishi",
+    "author_roles": null,
+    "publication_info": "IEEE Access (Early Access)",
+    "volume": "",
+    "number": "",
+    "start_page": "",
+    "end_page": "",
+    "publication_date": "2026-08-01T00:00:00",
+    "doi": "10.1109/ACCESS.2026.3724855",
+    "venue": "",
+    "venue_date": null,
+    "additional_info": "in initial production, IEEE Xplore yet to publish",
+    "source_url": "https://www.uranishi.me/publications",
+    "raw_text": "Gayeon Lee, Shizuka Shirai, Yuki Ban, Takuto Nakamura, Naoya Chiba and Yuki Uranishi, \"Breathing-Cycle Haptic Cues Reduce Perceived Mental Workload and Enhance Engagement in Remote Collaborative Learning\", IEEE Access (Early Access) (2026.8) DOI: 10.1109/ACCESS.2026.3724855",
+    "created_at": "2026-08-17T11:31:28.792251",
+    "updated_at": "2026-08-17T11:31:28.792251"
+  },
+  {
     "id": 303,
     "category_id": 4,
     "category": "International Conference Proceedings",
